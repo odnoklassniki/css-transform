@@ -1,0 +1,15 @@
+@import url('/a/b/css/file.css');
+@import url(http://inn.ru/main.css);
+
+@media screen {
+	div {
+		padding: 10px;
+		background: url(/a/b/css/test1.jpg) no-repeat;
+	}
+}
+
+p:before {
+	position: absolute;
+	content: url(/a/b/css/test2.png);
+	background: url(data:image/gif;base64,R0lGODdhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=);
+}
