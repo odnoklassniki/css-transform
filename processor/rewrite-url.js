@@ -102,6 +102,7 @@ function replaceUrl(str, file, base, config) {
 				targetUrl = config.transformUrl(targetUrl, file, {
 					clean: absUrl,
 					config: config,
+					type: 'css',
 					stats: fileStats(absUrl, file, config)
 				});
 			}
