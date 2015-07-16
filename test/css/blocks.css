@@ -1,0 +1,3551 @@
+body {
+  margin: 0;
+}
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotation {
+  from {
+    -moz-transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes rotation {
+  from {
+    -ms-transform: rotate(0);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotation {
+  from {
+    -o-transform: rotate(0);
+  }
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@font-face {
+  font-family: "RomulCWeb";
+  src: url("//st1%SHARD_BASE%/-/300861282/aion/b/pAionGL/font/romulc.eot");
+  src: local("RomulCWeb"), url('/aion/b/pAionGL/font/romulc.eot?#iefix') format('embedded-opentype'), url('//st2%SHARD_BASE%/-/1118423896/aion/b/pAionGL/font/romulc.woff') format('woff'), url('//st1%SHARD_BASE%/-/2449503802/aion/b/pAionGL/font/romulc.ttf') format('truetype');
+}
+.pAionGL__eHeader {
+  font: normal 36px/42px "RomulCWeb", "Times New Roman", serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 15px;
+}
+.pAionGL__eText {
+  font: normal 16px/20px "Helvetica", "Arial", sans-serif;
+  margin: 0;
+  padding: 0 0 8px;
+}
+.pAionGL__eOuterLink:link,
+.pAionGL__eOuterLink:visited,
+.pAionGL__eOuterLink:active {
+  display: inline-block;
+  line-height: 14px;
+  color: #78aec0;
+  border-bottom: 1px solid #78aec0;
+  text-decoration: none;
+}
+.pAionGL__eOuterLink:hover {
+  border-bottom-color: transparent;
+}
+.pAionGL__ePageLink:link,
+.pAionGL__ePageLink:visited,
+.pAionGL__ePageLink:active {
+  display: inline-block;
+  line-height: 14px;
+  color: #78aec0;
+  border-bottom: 1px dashed #78aec0;
+  text-decoration: none;
+}
+.pAionGL__ePageLink:hover {
+  border-bottom-color: transparent;
+}
+.pAionGL_bLayout {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 35px;
+}
+.pAionGL_bLayout__mPage_update45 {
+  background: #000000 url('/aion/b/pAionGL/pAionGL_bUpdate45/i/bg.jpg') no-repeat 50% 0;
+  -webkit-transition: background-position 0.3s linear;
+  transition: background-position 0.3s linear;
+}
+.pAionGL_bLayout__mPage_update40 {
+  background: #000000 url('/aion/b/pAionGL/pAionGL_bUpdate40/i/pAionGL_bUpdate40_1.jpg') no-repeat 50% 0;
+  -webkit-transition: background-position 0.3s linear;
+  transition: background-position 0.3s linear;
+}
+.pAionGL_bLayout__mPage_world {
+  background-color: #070b15;
+  background-image: url('//st2%SHARD_BASE%/-/367914787/aion/b/pAionGL/pAionGL_bLayout/stars.jpg');
+}
+.pAionGL_bLayout__mPage_characters {
+  background-color: #000000;
+  background-position: center top;
+}
+.pAionGL_bLayout__mPage_flight {
+  background-color: #7ea1be;
+  background-image: url('//st2%SHARD_BASE%/-/2656113143/aion/b/pAionGL/pAionGL_bFlight/sky.jpg');
+  background-position: center top;
+  background-repeat: repeat-x;
+  -webkit-background-size: auto;
+  background-size: auto;
+}
+.pAionGL_bLayout__mPage_elyos {
+  background-color: #ffffff;
+  background-image: url('//st3%SHARD_BASE%/-/894510755/aion/b/pAionGL/pAionGL_bClasses/elyos.jpg');
+  background-position: center top;
+  background-repeat: repeat-x;
+}
+.pAionGL_bLayout__mPage_asmodean {
+  background-color: #140026;
+  background-image: url('//st2%SHARD_BASE%/-/2198829793/aion/b/pAionGL/pAionGL_bClasses/asmodean.jpg');
+  background-position: center top;
+  background-repeat: repeat-x;
+}
+.pAionGL_bLayout__mPage_players {
+  background-color: #000000;
+  background-image: url('//st2%SHARD_BASE%/-/2768477684/aion/b/pAionGL/pAionGL_bLayout/players_bg.jpg');
+  background-position: 50% 0;
+}
+.pAionGL_bLayout__eNavWrapper {
+  position: relative;
+}
+.pAionGL_bLayout__eNavigation {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 20px;
+  top: 7px;
+  width: 154px;
+  padding: 115px 30px 20px;
+}
+.pAionGL_bLayout__eLogo {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 17px;
+  top: 24px;
+  width: 147px;
+  height: 52px;
+  z-index: 10;
+}
+.pAionGL_bLayout__eContent {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  padding-right: 260px;
+  padding-left: 220px;
+}
+.pAionGL_bLayout__eContent__mType_classes,
+.pAionGL_bLayout__eContent__mType_players {
+  padding: 30px 0 0 0;
+}
+.pAionGL_bLayout__eCaption {
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  position: relative;
+  color: #ffffff;
+  font: normal 46px/68px "RomulCWeb", "Times New Roman", serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pAionGL_bLayout__mPage_elyos .pAionGL_bLayout__eCaption,
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bLayout__eCaption,
+.pAionGL_bLayout__mPage_players .pAionGL_bLayout__eCaption {
+  margin-right: 260px;
+  margin-left: 220px;
+}
+.pAionGL_bLayout__eSubCaption {
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  position: relative;
+  color: #ffffff;
+  font: normal 30px/36px "RomulCWeb", "Times New Roman", serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pAionGL_bLayout__mPage_update45 .pAionGL_bLayout__eSubCaption {
+  font-size: 43px;
+}
+.pAionGL_bLayout__eFooter {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 36px;
+  padding: 12px;
+  font: normal 10px/14px "Helvetica", "Arial", sans-serif;
+  text-align: center;
+  color: white;
+}
+.pAionGL_bLayout__eFooterLink {
+  margin: 0 6px 0 0;
+  color: white;
+}
+.pAionGL_bLayout__eFooterLink:hover {
+  color: white;
+}
+.pAionGL_bLayout__eFixedGradient {
+  display: none;
+  z-index: 9;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  width: 860px;
+  height: 860px;
+  margin: -430px 0 0 -430px;
+  pointer-events: none;
+  opacity: 0.7;
+}
+.pAionGL_bLayout__eFixedGradient__mState_active {
+  display: block;
+}
+.pAionGL_bLayout__eFixedGradient__mType_world {
+  background: -webkit-radial-gradient(center center, circle closest-side, rgba(20, 0, 40, 0.6) 0%, rgba(20, 0, 40, 0.45) 50%, rgba(20, 0, 40, 0.3) 75%, rgba(20, 0, 40, 0) 100%);
+  height: 1500px;
+}
+.pAionGL_bLayout__eFixedGradient__mType_flight {
+  margin: -330px 0 0 -330px;
+  background: -webkit-radial-gradient(center center, circle closest-side, rgba(46, 96, 147, 0.7) 0%, rgba(46, 96, 147, 0.5) 50%, rgba(46, 96, 147, 0.2) 75%, rgba(46, 96, 147, 0) 100%);
+  background: radial-gradient(circle at 50% 50%, rgba(46, 96, 147, 0.7) 0%, rgba(46, 96, 147, 0.5) 50%, rgba(46, 96, 147, 0) 70%);
+}
+.pAionGL_bLayout__eFixedGradient__mType_players {
+  background: -webkit-radial-gradient(center center, circle closest-side, rgba(20, 0, 40, 0.6) 0%, rgba(20, 0, 40, 0.45) 50%, rgba(20, 0, 40, 0.3) 75%, rgba(20, 0, 40, 0) 100%);
+}
+.pAionGL_bLayout .bWidePageMaxWidth {
+  overflow: visible;
+}
+.pAionGL_bMenu {
+  margin: 0;
+  padding: 0;
+}
+.pAionGL_bMenu__eItem {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin: 0 0 27px 0;
+  font-size: 17px;
+  line-height: 17px;
+  font-family: "RomulCWeb", "Times New Roman", serif;
+  font-weight: normal;
+}
+.pAionGL_bMenu__eItem__mState_active {
+  color: #ffffff;
+}
+.pAionGL_bMenu__eItemText {
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+  position: relative;
+  z-index: 10;
+}
+.pAionGL_bMenu__eItemLink:link,
+.pAionGL_bMenu__eItemLink:active,
+.pAionGL_bMenu__eItemLink:visited {
+  display: inline-block;
+  border-bottom: 1px solid #78aec0;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  z-index: 10;
+}
+.pAionGL_bMenu__eItemLink:hover {
+  color: #ffffff;
+  border-color: transparent;
+}
+.pAionGL_bMenu__eItemIcon {
+  display: none;
+  position: absolute;
+  top: -3px;
+  left: -26px;
+  width: 26px;
+  height: 26px;
+  background-image: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png");
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.pAionGL_bMenu__eItemIcon__mPart_update40 {
+  top: -8px;
+  left: -29px;
+  height: 32px;
+  background-position: 0 -439px;
+}
+.pAionGL_bMenu__eItemIcon__mPart_world {
+  left: -26px;
+  background-position: 0 1px;
+}
+.pAionGL_bMenu__eItemIcon__mPart_characters {
+  left: -26px;
+  background-position: 0 -218px;
+}
+.pAionGL_bMenu__eItemIcon__mPart_flight {
+  left: -26px;
+  background-position: 0 -252px;
+}
+.pAionGL_bMenu__eItemIcon__mPart_classes {
+  left: -26px;
+  background-position: 0 -371px;
+}
+.pAionGL_bMenu__eItemIcon__mPart_players {
+  left: -30px;
+  background-position: 0 -404px;
+}
+.pAionGL_bMenu__eItem__mState_active .pAionGL_bMenu__eItemIcon,
+.pAionGL_bMenu__eItem:hover .pAionGL_bMenu__eItemIcon {
+  display: block;
+}
+.pAionGL_bMenu__eSubitems {
+  padding: 0 0 10px;
+}
+.pAionGL_bMenu__eSubitem {
+  position: relative;
+  padding: 0;
+  margin: 12px 0 0;
+  padding-left: 22px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "RomulCWeb", "Times New Roman", serif;
+  font-weight: normal;
+}
+.pAionGL_bMenu__eSubitem__mState_active {
+  color: #ffffff;
+}
+.pAionGL_bMenu__eSubitemPseudolink {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px dashed #78aec0;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+.pAionGL_bMenu__eSubitemPseudolink:hover {
+  color: #a9e0f5;
+}
+.pAionGL_bMenu__eSubitem__mState_active .pAionGL_bMenu__eSubitemPseudolink {
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.pAionGL_bMenu__eSubitem__mState_active .pAionGL_bMenu__eSubitemPseudolink:hover {
+  color: #ffffff;
+}
+.pAionGL_bMenu__eSubitemLink,
+.pAionGL_bMenu__eSubitemLink:link,
+.pAionGL_bMenu__eSubitemLink:active,
+.pAionGL_bMenu__eSubitemLink:visited {
+  border-bottom: 1px solid #78aec0;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  z-index: 10;
+}
+.pAionGL_bMenu__eSubitemLink:hover {
+  color: #ffffff;
+  border-color: transparent;
+}
+.pAionGL_bMenu__eSubitem__mState_active .pAionGL_bMenu__eSubitemLink {
+  border-bottom-color: transparent;
+  cursor: default;
+}
+.pAionGL_bMenu__eSubitem__mState_active .pAionGL_bMenu__eSubitemLink:hover {
+  color: #ffffff;
+}
+.pAionGL_bMenu__eSubItemIcon {
+  display: none;
+  position: absolute;
+  top: -8px;
+  left: -26px;
+  width: 26px;
+  height: 26px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") 0 1px no-repeat;
+  z-index: 10;
+}
+.pAionGL_bMenu__eSubItemIcon__mPart_history {
+  left: -3px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") -24px -27px no-repeat;
+}
+.pAionGL_bMenu__eSubItemIcon__mPart_cataclism {
+  left: -3px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") -24px -56px no-repeat;
+}
+.pAionGL_bMenu__eSubItemIcon__mPart_split {
+  left: -3px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") -24px -86px no-repeat;
+}
+.pAionGL_bMenu__eSubItemIcon__mPart_abyss {
+  left: -2px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") -24px -116px no-repeat;
+}
+.pAionGL_bMenu__eSubItemIcon__mPart_today {
+  top: -8px;
+  left: -3px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") -24px -146px no-repeat;
+}
+.pAionGL_bMenu__eSubItemIcon__mPart_future {
+  left: -3px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") -24px -177px no-repeat;
+}
+.pAionGL_bMenu__eSubItemIcon__mPart_fly {
+  left: -7px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") -24px -277px no-repeat;
+}
+.pAionGL_bMenu__eSubItemIcon__mPart_look {
+  left: -10px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") -26px -305px no-repeat;
+}
+.pAionGL_bMenu__eSubItemIcon__mPart_fight {
+  left: -7px;
+  background: url("//st2%SHARD_BASE%/-/1781064064/aion/b/pAionGL/pAionGL_bMenu/icons.png") -26px -335px no-repeat;
+}
+.pAionGL_bMenu__eSubitem__mState_active .pAionGL_bMenu__eSubItemIcon {
+  display: block;
+}
+.pAionGL_bMenu__eSubItemTexticon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0.8em;
+  line-height: 1.8;
+  width: 2em;
+  height: 26px;
+  z-index: 10;
+  cursor: default;
+}
+.pAionGL_bVideo {
+  position: relative;
+  width: 600px;
+}
+.pAionGL_bVideo__eScreenshot {
+  max-width: 100%;
+  max-height: 100%;
+}
+.pAionGL_bVideo__mState_play .pAionGL_bVideo__eScreenshot {
+  visibility: hidden;
+}
+.pAionGL_bVideo__ePlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url('//st1%SHARD_BASE%/-/2894879425/aion/b/pAionGL/pAionGL_bVideo/play.png') center no-repeat;
+  cursor: pointer;
+}
+.pAionGL_bVideo__mState_play .pAionGL_bVideo__ePlay {
+  display: none;
+}
+.pAionGL_bVideo__mFlash_na .pAionGL_bVideo__ePlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+.pAionGL_bVideo__eInstall {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 49%;
+  color: white;
+  font: normal 15px/20px "Helvetica", "Arial", sans-serif;
+  text-align: center;
+}
+.pAionGL_bVideo__mFlash_na .pAionGL_bVideo__eInstall {
+  display: block;
+}
+.pAionGL_bVideo__eInstallLink {
+  color: white;
+}
+.pAionGL_bVideo__eContainer {
+  width: 100%;
+  height: 100%;
+}
+.pAionGL_bVideo__mState_play .pAionGL_bVideo__eContainer {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.pAionGL_bFooter {
+  z-index: 101;
+  position: relative;
+  color: #a9a9a9;
+}
+.pAionGL_bFooter .bPageFooterCopyright__eSupportLink,
+.pAionGL_bFooter .bPageFooterList__eHeaderText,
+.pAionGL_bFooter .bPageFooterLang__ePopupShowLink,
+.pAionGL_bFooter a {
+  color: white;
+}
+.pAionGL_bFooter .bPageFooterLang__ePopupShowLink {
+  border-color: white;
+}
+.pAionGL_bFooter__mType_dark {
+  color: black;
+}
+.pAionGL_bFooter__mType_dark .bPageFooterCopyright__eSupportLink,
+.pAionGL_bFooter__mType_dark .bPageFooterList__eHeaderText,
+.pAionGL_bFooter__mType_dark .bPageFooterLang__ePopupShowLink,
+.pAionGL_bFooter__mType_dark a {
+  color: black;
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bFooter__mType_dark {
+  color: #a9a9a9;
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bFooter__mType_dark .bPageFooterCopyright__eSupportLink,
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bFooter__mType_dark .bPageFooterList__eHeaderText,
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bFooter__mType_dark .bPageFooterLang__ePopupShowLink,
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bFooter__mType_dark a {
+  color: white;
+}
+.pAionGL_bColumnsLayout__eMain {
+  float: left;
+  width: 100%;
+}
+.pAionGL_bColumnsLayout__eMainContent {
+  margin: 0 25%;
+}
+.pAionGL_bColumnsLayout__eLeft {
+  float: left;
+  width: 25%;
+  margin-left: -100%;
+}
+.pAionGL_bColumnsLayout__eRight {
+  float: left;
+  width: 25%;
+  margin-left: -25%;
+}
+.pAionGL_bColumnsLayout:after {
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  clear: both;
+}
+.pAionGL_bCharacter {
+  position: absolute;
+  bottom: 20px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-transition: left 0.5s ease;
+  -moz-transition: left 0.5s ease;
+  -ms-transition: left 0.5s ease;
+  -o-transition: left 0.5s ease;
+  transition: left 0.5s ease;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_standing {
+  left: 3%;
+  width: 82px;
+  height: 306px;
+  margin-left: -43px;
+  z-index: 6;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/1107383484/aion/b/pAionGL/pAionGL_bCharacter/assasin/standing/elyos.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 906px;
+  height: 516px;
+  margin-left: -463px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/2355828992/aion/b/pAionGL/pAionGL_bCharacter/assasin/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 1076px;
+  height: 466px;
+  margin-left: -524px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/4242567022/aion/b/pAionGL/pAionGL_bCharacter/assasin/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 875px;
+  height: 518px;
+  margin-left: -445px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/832084891/aion/b/pAionGL/pAionGL_bCharacter/assasin/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 1074px;
+  height: 468px;
+  margin-left: -522px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/624118320/aion/b/pAionGL/pAionGL_bCharacter/assasin/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_standing {
+  left: 8%;
+  width: 143px;
+  height: 354px;
+  margin-left: -71px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/486031843/aion/b/pAionGL/pAionGL_bCharacter/ranger/standing/elyos.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 999px;
+  height: 558px;
+  margin-left: -504px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3085864199/aion/b/pAionGL/pAionGL_bCharacter/ranger/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 990px;
+  height: 533px;
+  margin-left: -476px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/3023279356/aion/b/pAionGL/pAionGL_bCharacter/ranger/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 998px;
+  height: 610px;
+  margin-left: -503px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3741765528/aion/b/pAionGL/pAionGL_bCharacter/ranger/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 974px;
+  height: 537px;
+  margin-left: -468px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/338181338/aion/b/pAionGL/pAionGL_bCharacter/ranger/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_standing {
+  left: 22%;
+  width: 179px;
+  height: 428px;
+  margin-left: -89px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/46705811/aion/b/pAionGL/pAionGL_bCharacter/gladiator/standing/elyos.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 949px;
+  height: 538px;
+  margin-left: -370px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/798751949/aion/b/pAionGL/pAionGL_bCharacter/gladiator/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 1037px;
+  height: 518px;
+  margin-left: -473px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/767575377/aion/b/pAionGL/pAionGL_bCharacter/gladiator/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 935px;
+  height: 547px;
+  margin-left: -363px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/457098324/aion/b/pAionGL/pAionGL_bCharacter/gladiator/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 1060px;
+  height: 507px;
+  margin-left: -484px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/2928539768/aion/b/pAionGL/pAionGL_bCharacter/gladiator/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_standing {
+  left: 28%;
+  width: 129px;
+  height: 319px;
+  margin-left: -65px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/2947196157/aion/b/pAionGL/pAionGL_bCharacter/templar/standing/elyos.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 970px;
+  height: 496px;
+  margin-left: -490px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/393455351/aion/b/pAionGL/pAionGL_bCharacter/templar/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 1060px;
+  height: 457px;
+  margin-left: -528px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/4047004037/aion/b/pAionGL/pAionGL_bCharacter/templar/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 978px;
+  height: 511px;
+  margin-left: -488px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/632839748/aion/b/pAionGL/pAionGL_bCharacter/templar/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 1067px;
+  height: 475px;
+  margin-left: -532px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/1427522644/aion/b/pAionGL/pAionGL_bCharacter/templar/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_standing {
+  left: 39%;
+  width: 105px;
+  height: 360px;
+  margin-left: -52px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/369939144/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/standing/elyos.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 848px;
+  height: 538px;
+  margin-left: -206px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1839484347/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 830px;
+  height: 502px;
+  margin-left: -420px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/19028122/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 844px;
+  height: 546px;
+  margin-left: -207px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/262806641/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 830px;
+  height: 500px;
+  margin-left: -420px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/386015707/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_standing {
+  left: 49%;
+  width: 157px;
+  height: 338px;
+  margin-left: -78px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/631781336/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/standing/elyos.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 922px;
+  height: 550px;
+  margin-left: -346px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/930887974/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 759px;
+  height: 502px;
+  margin-left: -405px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/1144179353/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 891px;
+  height: 544px;
+  margin-left: -332px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/2656428949/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 792px;
+  height: 506px;
+  margin-left: -429px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/350477989/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_standing {
+  left: 62%;
+  width: 102px;
+  height: 311px;
+  margin-left: -51px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/2161589888/aion/b/pAionGL/pAionGL_bCharacter/cleric/standing/elyos.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 954px;
+  height: 482px;
+  margin-left: -484px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/2709492626/aion/b/pAionGL/pAionGL_bCharacter/cleric/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 1090px;
+  height: 457px;
+  margin-left: -534px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/1681184624/aion/b/pAionGL/pAionGL_bCharacter/cleric/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 966px;
+  height: 485px;
+  margin-left: -490px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1150099608/aion/b/pAionGL/pAionGL_bCharacter/cleric/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 1070px;
+  height: 466px;
+  margin-left: -526px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/934603188/aion/b/pAionGL/pAionGL_bCharacter/cleric/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_standing {
+  left: 69%;
+  width: 137px;
+  height: 320px;
+  margin-left: -68px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1304459669/aion/b/pAionGL/pAionGL_bCharacter/chanter/standing/elyos.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 994px;
+  height: 542px;
+  margin-left: -499px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3794265351/aion/b/pAionGL/pAionGL_bCharacter/chanter/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 1081px;
+  height: 493px;
+  margin-left: -513px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/4147320838/aion/b/pAionGL/pAionGL_bCharacter/chanter/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 947px;
+  height: 630px;
+  margin-left: -477px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3538641728/aion/b/pAionGL/pAionGL_bCharacter/chanter/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 1082px;
+  height: 570px;
+  margin-left: -516px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/2982496164/aion/b/pAionGL/pAionGL_bCharacter/chanter/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_standing {
+  left: 82%;
+  width: 126px;
+  height: 331px;
+  z-index: 6;
+  margin-left: -63px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3778480577/aion/b/pAionGL/pAionGL_bCharacter/gunner/standing/elyos.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 937px;
+  height: 453px;
+  margin-left: -468px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/965449711/aion/b/pAionGL/pAionGL_bCharacter/gunner/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 865px;
+  height: 414px;
+  margin-left: -432px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/1874494804/aion/b/pAionGL/pAionGL_bCharacter/gunner/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 937px;
+  height: 453px;
+  margin-left: -468px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/1647293188/aion/b/pAionGL/pAionGL_bCharacter/gunner/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 865px;
+  height: 414px;
+  margin-left: -432px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3833603041/aion/b/pAionGL/pAionGL_bCharacter/gunner/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_standing {
+  left: 92%;
+  width: 184px;
+  height: 340px;
+  margin-left: -92px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3948578250/aion/b/pAionGL/pAionGL_bCharacter/bard/standing/elyos.png');
+  z-index: 6;
+  left: -54px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 850px;
+  height: 509px;
+  margin-left: -425px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/2556057504/aion/b/pAionGL/pAionGL_bCharacter/bard/flying/elyos/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 850px;
+  height: 442px;
+  margin-left: -425px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/4221500666/aion/b/pAionGL/pAionGL_bCharacter/bard/flying/elyos/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 850px;
+  height: 509px;
+  margin-left: -425px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/1042884331/aion/b/pAionGL/pAionGL_bCharacter/bard/flying/elyos/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 850px;
+  height: 442px;
+  margin-left: -425px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/2404130522/aion/b/pAionGL/pAionGL_bCharacter/bard/flying/elyos/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_standing {
+  left: 95%;
+  width: 143px;
+  height: 410px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1041579168/aion/b/pAionGL/pAionGL_bCharacter/pilot/standing/elyos.png');
+  z-index: 6;
+  left: -42px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 716px;
+  height: 585px;
+  margin-left: -348px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3400309288/aion/b/pAionGL/pAionGL_bCharacter/pilot/flying/elyos/low_male.png');
+  z-index: 1;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 732px;
+  height: 566px;
+  margin-left: -355px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1158036526/aion/b/pAionGL/pAionGL_bCharacter/pilot/flying/elyos/low_female.png');
+  z-index: 1;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 777px;
+  height: 579px;
+  margin-left: -376px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/2608210552/aion/b/pAionGL/pAionGL_bCharacter/pilot/flying/elyos/high_male.png');
+  z-index: 1;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 759px;
+  height: 584px;
+  margin-left: -368px;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/704171755/aion/b/pAionGL/pAionGL_bCharacter/pilot/flying/elyos/high_female.png');
+  z-index: 1;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_standing {
+  left: 3%;
+  width: 89px;
+  height: 305px;
+  margin-left: -44px;
+  z-index: 6;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/2497879372/aion/b/pAionGL/pAionGL_bCharacter/assasin/standing/asmodean.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 842px;
+  height: 543px;
+  margin-left: -408px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3465077916/aion/b/pAionGL/pAionGL_bCharacter/assasin/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 900px;
+  height: 524px;
+  margin-left: -433px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/999798972/aion/b/pAionGL/pAionGL_bCharacter/assasin/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 825px;
+  height: 546px;
+  margin-left: -398px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3633173143/aion/b/pAionGL/pAionGL_bCharacter/assasin/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 893px;
+  height: 523px;
+  margin-left: -430px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_assasin.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1640212576/aion/b/pAionGL/pAionGL_bCharacter/assasin/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_standing {
+  left: 8%;
+  width: 143px;
+  height: 354px;
+  margin-left: -71px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/3593593778/aion/b/pAionGL/pAionGL_bCharacter/ranger/standing/asmodean.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 930px;
+  height: 566px;
+  margin-left: -456px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/4209683079/aion/b/pAionGL/pAionGL_bCharacter/ranger/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 949px;
+  height: 538px;
+  margin-left: -454px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/932135869/aion/b/pAionGL/pAionGL_bCharacter/ranger/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 994px;
+  height: 661px;
+  margin-left: -452px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1819287448/aion/b/pAionGL/pAionGL_bCharacter/ranger/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 947px;
+  height: 528px;
+  margin-left: -457px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_ranger.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/3858913071/aion/b/pAionGL/pAionGL_bCharacter/ranger/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_standing {
+  left: 22%;
+  width: 179px;
+  height: 428px;
+  margin-left: -89px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/2807780184/aion/b/pAionGL/pAionGL_bCharacter/gladiator/standing/asmodean.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 839px;
+  height: 570px;
+  margin-left: -325px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/3833314746/aion/b/pAionGL/pAionGL_bCharacter/gladiator/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 954px;
+  height: 502px;
+  margin-left: -443px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/1767164104/aion/b/pAionGL/pAionGL_bCharacter/gladiator/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 860px;
+  height: 557px;
+  margin-left: -341px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1705943521/aion/b/pAionGL/pAionGL_bCharacter/gladiator/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 942px;
+  height: 489px;
+  margin-left: -439px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gladiator.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/3470074905/aion/b/pAionGL/pAionGL_bCharacter/gladiator/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_standing {
+  left: 28%;
+  width: 129px;
+  height: 319px;
+  margin-left: -65px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/2129360712/aion/b/pAionGL/pAionGL_bCharacter/templar/standing/asmodean.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 903px;
+  height: 500px;
+  margin-left: -438px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/96855497/aion/b/pAionGL/pAionGL_bCharacter/templar/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 983px;
+  height: 532px;
+  margin-left: -491px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/306364016/aion/b/pAionGL/pAionGL_bCharacter/templar/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 901px;
+  height: 501px;
+  margin-left: -438px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/820622475/aion/b/pAionGL/pAionGL_bCharacter/templar/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 1025px;
+  height: 529px;
+  margin-left: -501px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_templar.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/553885040/aion/b/pAionGL/pAionGL_bCharacter/templar/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_standing {
+  left: 39%;
+  width: 105px;
+  height: 360px;
+  margin-left: -52px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3730180526/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/standing/asmodean.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 808px;
+  height: 530px;
+  margin-left: -240px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/674578294/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 936px;
+  height: 482px;
+  margin-left: -465px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/1240080089/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 806px;
+  height: 528px;
+  margin-left: -256px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/3471500745/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 949px;
+  height: 470px;
+  margin-left: -467px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_sorcerer.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/595078869/aion/b/pAionGL/pAionGL_bCharacter/sorcerer/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_standing {
+  left: 49%;
+  width: 157px;
+  height: 338px;
+  margin-left: -78px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/2496904939/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/standing/asmodean.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 846px;
+  height: 542px;
+  margin-left: -335px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/952987858/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 930px;
+  height: 473px;
+  margin-left: -507px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/2173612340/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 852px;
+  height: 539px;
+  margin-left: -346px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/2135216065/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 895px;
+  height: 484px;
+  margin-left: -490px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_spiritmaster.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/699653686/aion/b/pAionGL/pAionGL_bCharacter/spiritmaster/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_standing {
+  left: 62%;
+  width: 102px;
+  height: 311px;
+  margin-left: -51px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/898341318/aion/b/pAionGL/pAionGL_bCharacter/cleric/standing/asmodean.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 875px;
+  height: 522px;
+  margin-left: -456px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/1234910735/aion/b/pAionGL/pAionGL_bCharacter/cleric/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 987px;
+  height: 484px;
+  margin-left: -485px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3175757741/aion/b/pAionGL/pAionGL_bCharacter/cleric/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 846px;
+  height: 502px;
+  margin-left: -442px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/2605167926/aion/b/pAionGL/pAionGL_bCharacter/cleric/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 999px;
+  height: 499px;
+  margin-left: -488px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_cleric.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/1351257834/aion/b/pAionGL/pAionGL_bCharacter/cleric/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_standing {
+  left: 69%;
+  width: 137px;
+  height: 320px;
+  margin-left: -68px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/1789029130/aion/b/pAionGL/pAionGL_bCharacter/chanter/standing/asmodean.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 918px;
+  height: 544px;
+  margin-left: -450px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1788503844/aion/b/pAionGL/pAionGL_bCharacter/chanter/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 982px;
+  height: 528px;
+  margin-left: -472px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/3405376144/aion/b/pAionGL/pAionGL_bCharacter/chanter/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 901px;
+  height: 630px;
+  margin-left: -440px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/3838264748/aion/b/pAionGL/pAionGL_bCharacter/chanter/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 958px;
+  height: 610px;
+  margin-left: -460px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_chanter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/3475266509/aion/b/pAionGL/pAionGL_bCharacter/chanter/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_standing {
+  left: 82%;
+  width: 126px;
+  height: 331px;
+  z-index: 6;
+  margin-left: -63px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/1787608389/aion/b/pAionGL/pAionGL_bCharacter/gunner/standing/asmodean.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 958px;
+  height: 547px;
+  margin-left: -479px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/2137497534/aion/b/pAionGL/pAionGL_bCharacter/gunner/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 947px;
+  height: 466px;
+  margin-left: -473px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/2273444357/aion/b/pAionGL/pAionGL_bCharacter/gunner/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 958px;
+  height: 547px;
+  margin-left: -479px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3189403714/aion/b/pAionGL/pAionGL_bCharacter/gunner/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 947px;
+  height: 466px;
+  margin-left: -473px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_gunner.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/453125195/aion/b/pAionGL/pAionGL_bCharacter/gunner/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_standing {
+  left: 92%;
+  width: 184px;
+  height: 340px;
+  margin-left: -92px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/391945215/aion/b/pAionGL/pAionGL_bCharacter/bard/standing/asmodean.png');
+  z-index: 6;
+  left: -54px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 850px;
+  height: 503px;
+  margin-left: -425px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/541816263/aion/b/pAionGL/pAionGL_bCharacter/bard/flying/asmodean/low_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 850px;
+  height: 474px;
+  margin-left: -425px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/4271928615/aion/b/pAionGL/pAionGL_bCharacter/bard/flying/asmodean/low_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 850px;
+  height: 498px;
+  margin-left: -425px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st3%SHARD_BASE%/-/3073183015/aion/b/pAionGL/pAionGL_bCharacter/bard/flying/asmodean/high_male.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 850px;
+  height: 478px;
+  margin-left: -425px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_bard.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/339578725/aion/b/pAionGL/pAionGL_bCharacter/bard/flying/asmodean/high_female.png');
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_standing {
+  left: 95%;
+  width: 143px;
+  height: 410px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_standing .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/221218600/aion/b/pAionGL/pAionGL_bCharacter/pilot/standing/asmodean.png');
+  z-index: 6;
+  left: -42px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male {
+  width: 716px;
+  height: 585px;
+  margin-left: -349px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/3782999616/aion/b/pAionGL/pAionGL_bCharacter/pilot/flying/asmodean/low_male.png');
+  z-index: 1;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female {
+  width: 732px;
+  height: 566px;
+  margin-left: -355px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_low.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/3892674797/aion/b/pAionGL/pAionGL_bCharacter/pilot/flying/asmodean/low_female.png');
+  z-index: 1;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male {
+  width: 762px;
+  height: 590px;
+  margin-left: -366px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_male .pAionGL_bCharacter__eImage {
+  background-image: url('//st2%SHARD_BASE%/-/4116700371/aion/b/pAionGL/pAionGL_bCharacter/pilot/flying/asmodean/high_male.png');
+  z-index: 1;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female {
+  width: 774px;
+  height: 581px;
+  margin-left: -378px;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__mClass_pilot.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mArmor_high.pAionGL_bCharacter__mGender_female .pAionGL_bCharacter__eImage {
+  background-image: url('//st1%SHARD_BASE%/-/2949546850/aion/b/pAionGL/pAionGL_bCharacter/pilot/flying/asmodean/high_female.png');
+  z-index: 1;
+}
+.pAionGL_bCharacter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mState_selected {
+  left: 49%;
+}
+.pAionGL_bCharacter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mState_selected.pAionGL_bCharacter__mType_trigger {
+  display: none;
+}
+.pAionGL_bCharacter.pAionGL_bCharacter__mType_flying.pAionGL_bCharacter__mState_selected .pAionGL_bCharacter__eImage {
+  z-index: 8;
+}
+.pAionGL_bCharacter__eName {
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "RomulCWeb", "Times New Roman", serif;
+  font-weight: normal;
+  text-align: left;
+  cursor: pointer;
+}
+.pAionGL_bCharacter__mClass_assasin .pAionGL_bCharacter__eName {
+  left: 10px;
+}
+.pAionGL_bCharacter__mClass_ranger .pAionGL_bCharacter__eName {
+  left: 65px;
+}
+.pAionGL_bCharacter__mClass_gladiator .pAionGL_bCharacter__eName {
+  left: 25px;
+}
+.pAionGL_bCharacter__mClass_templar .pAionGL_bCharacter__eName {
+  left: 45px;
+}
+.pAionGL_bCharacter__mClass_sorcerer .pAionGL_bCharacter__eName {
+  left: -5px;
+}
+.pAionGL_bCharacter__mClass_spiritmaster .pAionGL_bCharacter__eName {
+  left: 30px;
+}
+.pAionGL_bCharacter__mClass_cleric .pAionGL_bCharacter__eName {
+  left: 10px;
+}
+.pAionGL_bCharacter__mClass_chanter .pAionGL_bCharacter__eName {
+  left: 50px;
+}
+.pAionGL_bCharacter__mClass_gunner .pAionGL_bCharacter__eName {
+  left: 10px;
+}
+.pAionGL_bCharacter__mClass_bard .pAionGL_bCharacter__eName {
+  left: 40px;
+}
+@media screen and (min-width: 1220px) {
+  .pAionGL_bCharacter__eName {
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+.pAionGL_bCharacter__eNameLink {
+  display: inline-block;
+  border-bottom: 1px dashed #78aec0;
+  color: black;
+}
+.pAionGL_bClasses__eCharacters__mType_elyos .pAionGL_bCharacter__eNameLink {
+  color: black;
+}
+.pAionGL_bClasses__eCharacters__mType_asmodean .pAionGL_bCharacter__eNameLink {
+  color: white;
+}
+.pAionGL_bCharacter__eNameLink:hover,
+.pAionGL_bCharacter__mState_highlight .pAionGL_bCharacter__eNameLink {
+  color: #78aec0;
+}
+.pAionGL_bCharacter__eImage {
+  z-index: 5;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: top 0.5s ease, -webkit-transform 0.5s ease;
+  -moz-transition: top 0.5s ease, -moz-transform 0.5s ease;
+  -ms-transition: top 0.5s ease, -ms-transform 0.5s ease;
+  -o-transition: top 0.5s ease, -o-transform 0.5s ease;
+  transition: top 0.5s ease, transform 0.5s ease;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.pAionGL_bCharacter__mScale_1 .pAionGL_bCharacter__eImage {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.pAionGL_bCharacter__mScale_2 .pAionGL_bCharacter__eImage {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.pAionGL_bCharacter__mScale_3 .pAionGL_bCharacter__eImage {
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  transform: scale(0.95);
+}
+.pAionGL_bCharacter__mState_highlight .pAionGL_bCharacter__eImage {
+  top: -13px;
+  -o-animation: soaring 1.5s infinite ease-in-out;
+  -webkit-animation: soaring 1.5s infinite ease-in-out;
+  -moz-animation: soaring 1.5s infinite ease-in-out;
+  -o-animation: soaring 1.5s infintite ease-in-out;
+  animation: soaring 1.5s infinite ease-in-out;
+}
+.pAionGL_bCharacter__mState_selected .pAionGL_bCharacter__eImage {
+  top: -90px;
+  -o-animation: soaring 1.5s infinite ease-in-out;
+  -webkit-animation: soaring 1.5s infinite ease-in-out;
+  -moz-animation: soaring 1.5s infinite ease-in-out;
+  -o-animation: soaring 1.5s infintite ease-in-out;
+  animation: soaring 1.5s infinite ease-in-out;
+}
+@-webkit-keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+@-moz-keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+@-ms-keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+@-o-keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+@keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+.pAionGL_bGallery {
+  margin: 0;
+  padding: 0;
+}
+.pAionGL_bGallery__mType_flight {
+  text-align: left;
+}
+.pAionGL_bGallery__eItem {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+}
+.pAionGL_bGallery__mType_flight .pAionGL_bGallery__eItem {
+  overflow: hidden;
+  width: 127px;
+  height: 65px;
+  margin: 0 14px 7px 0;
+}
+.pAionGL_bGallery__eItemImage {
+  display: block;
+  border: none;
+}
+.pAionGL_bGallery__ePopup {
+  visibility: hidden;
+}
+.pAionGL_bGallery__ePopup__mState_active {
+  visibility: visible;
+}
+.pAionGL_bGallery__ePopupOverlay {
+  z-index: 120;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(20, 0, 40, 0);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.pAionGL_bGallery__ePopup__mState_active .pAionGL_bGallery__ePopupOverlay {
+  background: rgba(20, 0, 40, 0.7);
+}
+.pAionGL_bGallery__ePopupContent {
+  z-index: 130;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -o-transform: scale(0.3);
+  transform: scale(0.3);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.pAionGL_bGallery__ePopup__mState_active .pAionGL_bGallery__ePopupContent {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.pAionGL_bGallery__ePopupContent__mState_next {
+  left: 250%;
+}
+.pAionGL_bGallery__ePopupContent__mState_prev {
+  left: -200%;
+}
+.pAionGL_bGallery__ePopupImage,
+.pAionGL_bGallery__ePopupVideo {
+  width: 100%;
+  height: 100%;
+}
+.pAionGL_bGallery__ePopupRewind {
+  z-index: 140;
+  position: fixed;
+  top: 50%;
+  width: 50px;
+  height: 60px;
+  margin-top: -30px;
+  background: url('//st3%SHARD_BASE%/-/4064371368/aion/b/pAionGL/pAionGL_bGallery/arrows.png') no-repeat;
+  text-indent: -9999px;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.pAionGL_bGallery__ePopup__mState_active .pAionGL_bGallery__ePopupRewind {
+  opacity: 1;
+}
+.pAionGL_bGallery__ePopup__mState_uncontrolled .pAionGL_bGallery__ePopupRewind {
+  display: none;
+}
+.pAionGL_bGallery__ePopupRewind__mType_next {
+  right: 50px;
+  background-position: -50px top;
+}
+.pAionGL_bGallery__ePopupRewind__mType_prev {
+  left: 50px;
+}
+.pAionGL_bGallery__ePopupClose {
+  z-index: 140;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
+  background: url('//st2%SHARD_BASE%/-/4217343236/aion/b/pAionGL/pAionGL_bGallery/close.png') no-repeat;
+  text-indent: -9999px;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+.pAionGL_bGallery__ePopup__mState_active .pAionGL_bGallery__ePopupClose {
+  opacity: 1;
+}
+.pAionGL_bGallery__ePopup__mState_active .pAionGL_bGallery__ePopupClose__mState_hidden {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+  opacity: 0;
+}
+.pAionGL_bGender {
+  width: 80px;
+}
+.pAionGL_bGender__eCaption {
+  margin: 10px 0 0 0;
+  color: white;
+  font: normal 16px/20px "RomulCWeb", "Times New Roman", serif;
+  text-shadow: 0 0 4px #827881;
+}
+.pAionGL_bGender__eCaptionLink {
+  border-bottom: 1px dashed #79aec0;
+  cursor: pointer;
+}
+.pAionGL_bGender__eCaptionLink:hover {
+  color: #79aec0;
+}
+.pAionGL_bGender__eType {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 10px 2px;
+  background: url("//st1%SHARD_BASE%/-/2085047955/aion/b/pAionGL/pAionGL_bClasses/i/armor-and-gender.png") no-repeat 0 -60px;
+  text-align: center;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.pAionGL_bGender__eType__mType_female {
+  background-position: -30px 0;
+}
+.pAionGL_bGender__eType__mType_female.pAionGL_bGender__eType__mState_active {
+  background-position: 0 0;
+  cursor: default;
+}
+.pAionGL_bGender__eType__mType_female.pAionGL_bGender__eType__mState_active:hover {
+  background-position: 0 0;
+}
+.pAionGL_bGender__eType__mType_female:hover {
+  background-position: -60px 0;
+}
+.pAionGL_bGender__eType__mType_male {
+  background-position: -30px -30px;
+}
+.pAionGL_bGender__eType__mType_male.pAionGL_bGender__eType__mState_active {
+  background-position: 0 -30px;
+  cursor: default;
+}
+.pAionGL_bGender__eType__mType_male.pAionGL_bGender__eType__mState_active:hover {
+  background-position: 0 -30px;
+}
+.pAionGL_bGender__eType__mType_male:hover {
+  background-position: -60px -30px;
+}
+.pAionGL_bPreloader {
+  opacity: 1;
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+.pAionGL_bPreloader__mState_hidden {
+  opacity: 0;
+  z-index: -5;
+  -webkit-transition: opacity 0.8s ease, z-index 0 linear 0.8s;
+  -moz-transition: opacity 0.8s ease, z-index 0 linear 0.8s;
+  -ms-transition: opacity 0.8s ease, z-index 0 linear 0.8s;
+  -o-transition: opacity 0.8s ease, z-index 0 linear 0.8s;
+  transition: opacity 0.8s ease, z-index 0 linear 0.8s;
+}
+.pAionGL_bPreloader__eSpinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -40px 0 0 -40px;
+  width: 80px;
+  height: 80px;
+  background: url("//st3%SHARD_BASE%/-/1276749934/aion/b/pAionGL/pAionGL_bPreloader/spinner.png") center no-repeat;
+  -webkit-animation: rotation 1.6s infinite linear;
+  -moz-animation: rotation 1.6s infinite linear;
+  -o-animation: rotation 1.6s infintite linear;
+  animation: rotation 1.6s infinite linear;
+}
+.pAionGL_bClasses {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-top: 700px;
+}
+.pAionGL_bClasses__eCharacters {
+  display: none;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 650px;
+}
+.pAionGL_bLayout__mPage_elyos .pAionGL_bClasses__eCharacters__mType_elyos,
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eCharacters__mType_asmodean {
+  display: block;
+}
+.pAionGL_bClasses__eCharacters__mType_triggers {
+  z-index: 6;
+}
+.pAionGL_bClasses__eRaces {
+  z-index: 7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  text-align: center;
+}
+.pAionGL_bClasses__eRace {
+  position: relative;
+  left: -30px;
+  display: inline-block;
+  margin-left: 50px;
+  border-bottom: 1px dashed #78aec0;
+  color: white;
+  font: normal 14px/14px "RomulCWeb", "Times New Roman", serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.pAionGL_bClasses__eRace:hover {
+  border: none;
+}
+.pAionGL_bClasses__eRace__mState_active {
+  border: none;
+  cursor: default;
+}
+.pAionGL_bClasses__eRaceIcon {
+  display: none;
+  position: absolute;
+  left: -36px;
+  top: -12px;
+  width: 36px;
+  height: 36px;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAAkCAYAAAAq23xmAAAGMUlEQVR42u2Ze0xWdRjHIxFvSXlJ81Ji6ETRzczctOZKc6JT1oXVTE105WqmZliZmlZmjjQ3razMLKfVjFKTCRlNk1RMyCgV0i5qihfKLBXnBXn7un3O9uwM3jie85J/8Gyfvef83t+N73l+z/O8h6tCodAVT3VNfRuLu8XjYrBo6mFspXjbSPgFGvgYG47qjG8nXhdlwlqFWCISalwgJr1ajBF7xRExVzSuCYEY10R8LKpj2aJ1TQuUKNw2NkiB4BHRsQqBZohfRDg7KNJFq0rmuJb5IyJQjHhLOFYgmkRAoFvEBpEUZo5JojJ7McyYriJXJEVEIBZpKirYzJBIxCD69GaNtDDzPCysTQvT9376jIhokGby4yzWJVIC0e8B1lkjepr2a8RMPGILfXaLRI5gK9O3o1hCn9k0R1ygoyzYIZIC0Xclax3lPlZ0EZkiQ/Tl+2SxUOSJTqIl/TfwfZHvIM3A7u42NvSOuJn7UhZtSVxaIJ4XUa5xHUS0H4FYYynrTRA3iEKxQ5wlFv0lxoljYpcoFt3FQMZ9IjoHJdAccUKMNm1TWKi3FYiMECUcq8f3SaKQVFvHd5pnTtbYbGJgiP2uYo/WcvkcF2iaxyPG8dROis9Iq2ViIH0OixB924hjbPoLUcITe1m0vZwjhujdRDT964g+4rRVgPX6i+0csRVWPOweEWPWbi8a+BGosSjg2PQl3pwXxXyfZjaxnrbF3JeL4eIxREz0kcVmiTiuo8Uo1jgXwgjUL4hS9vusKLP92G+MqaOmi7q+gvSlWoLJN4ksU3ytp4q+SNthPKyA++NiDdef+0zza8VQruuLd82D2Wf2kIVAGaKctv0hjONXl3luFZl+j1gUG6jMvhFxbOqcaC4Wmo253ftGHwJtE4VO4hAnzRozxFruj1AZb+J+p5hiSpHzYjDzZJuT4MuDUskM1k6JAaIPAl4QD4rEKgR9SdT3IdB7zLMdEaz9Ibbyu2wM+00mbubj7dbOiDyu1/gWiAlGCmsnCIqppm06HvSnsLasKu/0INBiI8ZaM/c24s1PYrYYLeaLFDGNELCUvTr2pXmIGZ4EovOdYjKBsZNpJ2tgpH4yVYjrm4TbnOB6HXOmiZFePAgPOWDG7Dbpe5IYK/Jpe1qc5UFNFM+ITL4rMUF6h6cjRrx51eUBv/GH3UecsTafyXcZgQYKt80ksL4prC0X8dURCA8YZjLrLFfgLeR6K9VyDvdHxUemb4ZoZBwhx6tAw8VrNubgFbnm/jti0GoC9GmyyEb+6EPid8eNEbah+IH7i1Ti40WbagqUTuXOveodjHWczw/Er4iyk/ZicZ7rVDNHM4SO9nTEGPwcgTfEYuuEY4sIloXUGQcR4QCbykHkLfQvEm+IClhxGYXiba4CrzWeYs2dSNyxsIjCMMrMk+CpUGRQD+oXx/4RRSaLPCTOcH8HgpSLriZjzBWTTB1Saub7XqQE8EbxK+ZbZ+qg3WS5fLNejtlHI98/NRhQT3xtaocCcY7NdEGoQ07wFBfY8N/iWzHFHIM9tDvFZHs/v8Wotz40mXOImCeuJ3OV8YBi+UwlC5/Eq+OC+y3GRhAo0xy5TaTLyTZok1L3kVX2koZXmaKtmc9f8/1MPOlmjkmaGG+85Ucxgf31MDHHsUcDEYjBbwu3bRcrEcRmiGV4mdtynRjiRyDjictd7bE8iBKTvTaIVq5+M91vG4IqFFPIEKtJuXNEN878XmLSfn4tDyLTZYn3xcQgXpiZoJxiA60183Dyw6x3FwG8NCJvFHHjJ8UeRMmDYsRawuvR9ADfSb9CzGtRxRzx1GADSCqjEKJzFf3rUCiujIRAC00KrxCbiUc/03YAwfr7FQhGiEX/MUcLjngeWXIb3tQ23DiEnxi0QGMQIkEkk5lOi6dEO1GCCzcPSKB+HvaWLU6RSWOqOaZXYAKRSjcSc9JFW/NS6nYxGsEKxdQgBPJiZLlykexlXJACtRcFpOyz5q1iFtdF4hhHcN7/IFBDMmx8zQuEEQDjxb0mQPbkehAuO0z0qmmBmG+qiA5KoCsT757diCz2qbhIKTJUxNYKxHtq0Vk84fxPnt+GDWsFqiTLXvqsPWJVGP/BrRuUQLWE4V+4IaO0Ew6MrAAAAABJRU5ErkJggg==');
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+.pAionGL_bClasses__eRace__mType_asmodean .pAionGL_bClasses__eRaceIcon {
+  background-position: -36px top;
+}
+.pAionGL_bClasses__eRace__mState_active .pAionGL_bClasses__eRaceIcon {
+  display: block;
+}
+.pAionGL_bClasses__eDetails {
+  margin: 0;
+  padding: 0;
+  display: none;
+  overflow: hidden;
+  z-index: 9;
+  position: absolute;
+  left: 50%;
+  top: 350px;
+  width: 166px;
+  height: 170px;
+  padding-top: 12px;
+  margin-left: -83px;
+  text-align: center;
+  background: url('//st1%SHARD_BASE%/-/322874063/aion/b/pAionGL/pAionGL_bClasses/details.png') center no-repeat;
+}
+.pAionGL_bClasses__mState_detailed .pAionGL_bClasses__eDetails {
+  display: block;
+}
+.pAionGL_bClasses__eGender {
+  position: relative;
+  margin: 0 auto;
+}
+.pAionGL_bClasses__eArmor {
+  position: relative;
+  margin: 0 auto;
+}
+.pAionGL_bClasses__eArmorCaption {
+  margin: 10px 0 0 0;
+  color: white;
+  font: normal 16px/20px "RomulCWeb", "Times New Roman", serif;
+  text-shadow: 0 0 4px #827881;
+}
+.pAionGL_bClasses__eArmorType {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 10px 0;
+  background: url("//st1%SHARD_BASE%/-/2085047955/aion/b/pAionGL/pAionGL_bClasses/i/armor-and-gender.png") no-repeat 0 -60px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.pAionGL_bClasses__eArmorType__mType_standard {
+  background-position: -30px -60px;
+}
+.pAionGL_bClasses__eArmorType__mType_standard.pAionGL_bClasses__eArmorType__mState_active {
+  background-position: 0 -60px;
+  cursor: default;
+}
+.pAionGL_bClasses__eArmorType__mType_standard.pAionGL_bClasses__eArmorType__mState_active:hover {
+  background-position: 0 -60px;
+}
+.pAionGL_bClasses__eArmorType__mType_standard:hover {
+  background-position: -60px -60px;
+}
+.pAionGL_bClasses__eArmorType__mType_full {
+  background-position: -30px -90px;
+}
+.pAionGL_bClasses__eArmorType__mType_full.pAionGL_bClasses__eArmorType__mState_active {
+  background-position: 0 -90px;
+  cursor: default;
+}
+.pAionGL_bClasses__eArmorType__mType_full.pAionGL_bClasses__eArmorType__mState_active:hover {
+  background-position: 0 -90px;
+}
+.pAionGL_bClasses__eArmorType__mType_full:hover {
+  background-position: -60px -90px;
+}
+.pAionGL_bClasses__eClouds {
+  z-index: 4;
+  position: absolute;
+  right: -1000px;
+  top: 220px;
+  height: 713px;
+}
+.pAionGL_bLayout__mPage_elyos .pAionGL_bClasses__eClouds {
+  background: url('//st3%SHARD_BASE%/-/1702346343/aion/b/pAionGL/pAionGL_bClasses/clouds-elyos.png') center top no-repeat;
+  left: -1177px;
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eClouds {
+  height: 559px;
+  background: url('//st2%SHARD_BASE%/-/1089756487/aion/b/pAionGL/pAionGL_bClasses/clouds-asmodean.png') center top no-repeat;
+  left: -856px;
+}
+.pAionGL_bClasses__eDescription {
+  display: none;
+  z-index: 5;
+  position: relative;
+  padding: 0 0 40px 0;
+  color: black;
+}
+.pAionGL_bClasses__eDescription__mState_active {
+  display: block;
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescription {
+  color: white;
+}
+.pAionGL_bClasses__eDescriptionFeatures {
+  padding: 0 20px 0 10px;
+}
+.pAionGL_bClasses__eDescriptionAbilities {
+  padding: 0 20px;
+}
+.pAionGL_bClasses__eDescriptionCaption {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font: normal 18px/24px "RomulCWeb", "Times New Roman", serif;
+  text-align: center;
+}
+.pAionGL_bClasses__eDescriptionCaption__mType_character {
+  position: absolute;
+  top: -70px;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "RomulCWeb", "Times New Roman", serif;
+  font-weight: normal;
+  text-align: left;
+}
+@media screen and (min-width: 1220px) {
+  .pAionGL_bClasses__eDescriptionCaption__mType_character {
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+.pAionGL_bClasses__eDescription__mClass_assasin .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 47%;
+  margin-left: -33px;
+}
+.pAionGL_bClasses__eDescription__mClass_ranger .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 53%;
+  margin-left: -6px;
+}
+.pAionGL_bClasses__eDescription__mClass_gladiator .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 47%;
+  margin-left: -64px;
+}
+.pAionGL_bClasses__eDescription__mClass_templar .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 53%;
+  margin-left: -20px;
+}
+.pAionGL_bClasses__eDescription__mClass_sorcerer .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 39%;
+  margin-left: -57px;
+}
+.pAionGL_bClasses__eDescription__mClass_spiritmaster .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 49%;
+  margin-left: -48px;
+}
+.pAionGL_bClasses__eDescription__mClass_cleric .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 48%;
+  margin-left: -41px;
+}
+.pAionGL_bClasses__eDescription__mClass_chanter .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 55%;
+  margin-left: -18px;
+}
+.pAionGL_bClasses__eDescription__mClass_gunner .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 48%;
+  margin-left: -53px;
+}
+.pAionGL_bClasses__eDescription__mClass_bard .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 58%;
+  margin-left: -52px;
+}
+.pAionGL_bClasses__eDescription__mClass_pilot .pAionGL_bClasses__eDescriptionCaption__mType_character {
+  left: 41%;
+  margin-left: -32px;
+}
+.pAionGL_bClasses__eDescriptionCaption__mOpticalCenter_toLeft {
+  padding-right: 25px;
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon {
+  position: absolute;
+  left: 50%;
+  top: -40px;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_assasin {
+  background-image: url('//st1%SHARD_BASE%/-/4177665085/aion/b/pAionGL/pAionGL_bClasses/icons/assasin_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_assasin {
+  background-image: url('//st1%SHARD_BASE%/-/835082975/aion/b/pAionGL/pAionGL_bClasses/icons/assasin_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_ranger {
+  background-image: url('//st3%SHARD_BASE%/-/2821298751/aion/b/pAionGL/pAionGL_bClasses/icons/ranger_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_ranger {
+  background-image: url('//st3%SHARD_BASE%/-/1058071591/aion/b/pAionGL/pAionGL_bClasses/icons/ranger_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_gladiator {
+  background-image: url('//st3%SHARD_BASE%/-/4234418404/aion/b/pAionGL/pAionGL_bClasses/icons/gladiator_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_gladiator {
+  background-image: url('//st3%SHARD_BASE%/-/889827169/aion/b/pAionGL/pAionGL_bClasses/icons/gladiator_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_templar {
+  background-image: url('//st1%SHARD_BASE%/-/1618591311/aion/b/pAionGL/pAionGL_bClasses/icons/templar_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_templar {
+  background-image: url('//st1%SHARD_BASE%/-/1634800483/aion/b/pAionGL/pAionGL_bClasses/icons/templar_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_sorcerer {
+  background-image: url('//st2%SHARD_BASE%/-/2226631147/aion/b/pAionGL/pAionGL_bClasses/icons/sorcerer_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_sorcerer {
+  background-image: url('//st2%SHARD_BASE%/-/2767299030/aion/b/pAionGL/pAionGL_bClasses/icons/sorcerer_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_chanter {
+  background-image: url('//st3%SHARD_BASE%/-/2273287081/aion/b/pAionGL/pAionGL_bClasses/icons/chanter_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_chanter {
+  background-image: url('//st3%SHARD_BASE%/-/2199606807/aion/b/pAionGL/pAionGL_bClasses/icons/chanter_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_cleric {
+  background-image: url('//st2%SHARD_BASE%/-/3733468275/aion/b/pAionGL/pAionGL_bClasses/icons/cleric_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_cleric {
+  background-image: url('//st2%SHARD_BASE%/-/4240240612/aion/b/pAionGL/pAionGL_bClasses/icons/cleric_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_spiritmaster {
+  background-image: url('//st2%SHARD_BASE%/-/685705340/aion/b/pAionGL/pAionGL_bClasses/icons/spiritmaster_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_spiritmaster {
+  background-image: url('//st2%SHARD_BASE%/-/2901829335/aion/b/pAionGL/pAionGL_bClasses/icons/spiritmaster_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_gunner {
+  background-image: url('//st1%SHARD_BASE%/-/2517936200/aion/b/pAionGL/pAionGL_bClasses/icons/gunner_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_gunner {
+  background-image: url('//st1%SHARD_BASE%/-/2065458840/aion/b/pAionGL/pAionGL_bClasses/icons/gunner_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_bard {
+  background-image: url('//st1%SHARD_BASE%/-/3627786158/aion/b/pAionGL/pAionGL_bClasses/icons/bard_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_bard {
+  background-image: url('//st1%SHARD_BASE%/-/4202046439/aion/b/pAionGL/pAionGL_bClasses/icons/bard_w.png');
+}
+.pAionGL_bClasses__eDescriptionCaptionIcon__mType_pilot {
+  background-image: url('//st3%SHARD_BASE%/-/1481221753/aion/b/pAionGL/pAionGL_bClasses/icons/pilot_b.png');
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eDescriptionCaptionIcon__mType_pilot {
+  background-image: url('//st3%SHARD_BASE%/-/51390081/aion/b/pAionGL/pAionGL_bClasses/icons/pilot_w.png');
+}
+.pAionGL_bClasses__eDescriptionText {
+  font: normal 16px/20px "Helvetica", "Arial", sans-serif;
+}
+.pAionGL_bClasses__eDescriptionVideo {
+  max-width: 100%;
+}
+.pAionGL_bClasses__eDescriptionAbilityVideo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+.pAionGL_bClasses__eDescriptionAbilityVideoClose {
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  width: 50px;
+  height: 50px;
+  background: url('//st3%SHARD_BASE%/-/4217343236/aion/b/pAionGL/pAionGL_bClasses/close.png') no-repeat;
+  cursor: pointer;
+}
+.pAionGL_bClasses__eDescriptionAbilityVideoIframe {
+  width: 100%;
+  height: 100%;
+}
+.pAionGL_bClasses__eAbilitiesList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pAionGL_bClasses__eAbilitiesListItem {
+  position: relative;
+  min-height: 40px;
+  padding-left: 48px;
+  margin-bottom: 20px;
+  font: normal 16px/20px "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+}
+.pAionGL_bClasses__eAbilitiesListItem__mState_active,
+.pAionGL_bClasses__eAbilitiesListItem__mVideo_no {
+  cursor: default;
+}
+.pAionGL_bClasses__eAbilitiesListCaption {
+  margin: 0 0 6px 0;
+  font: normal 16px/20px "RomulCWeb", "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+.pAionGL_bClasses__eAbilitiesListCaptionWrap {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px dashed #78aec0;
+}
+.pAionGL_bClasses__eAbilitiesListItem:hover .pAionGL_bClasses__eAbilitiesListCaptionWrap {
+  color: #78aec0;
+}
+.pAionGL_bClasses__eAbilitiesListItem__mState_active .pAionGL_bClasses__eAbilitiesListCaptionWrap {
+  border: none;
+}
+.pAionGL_bClasses__eAbilitiesListItem__mState_active:hover .pAionGL_bClasses__eAbilitiesListCaptionWrap {
+  color: black;
+}
+.pAionGL_bLayout__mPage_asmodean .pAionGL_bClasses__eAbilitiesListItem__mState_active:hover .pAionGL_bClasses__eAbilitiesListCaptionWrap {
+  color: white;
+}
+.pAionGL_bClasses__eAbilitiesListIcon {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 38px;
+  height: 38px;
+}
+.pAionGL_bClasses__eAbilitiesListDesc {
+  margin: 0;
+  font: normal 16px/20px "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+@-webkit-keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+@-moz-keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+@-ms-keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+@-o-keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+@keyframes soaring {
+  25% {
+    margin-top: -2px;
+  }
+  85% {
+    margin-top: 2px;
+  }
+}
+.pAionGL_bFlight {
+  position: relative;
+  height: 120px;
+  padding-top: 680px;
+}
+.pAionGL_bFlight__eAngel__mType_1 {
+  z-index: 9;
+}
+.pAionGL_bFlight__eAngel__mType_2,
+.pAionGL_bFlight__eAngel__mType_3 {
+  z-index: 8;
+}
+.pAionGL_bFlight__eCloud__mType_1 {
+  z-index: 7;
+}
+.pAionGL_bFlight__eAngel__mType_4,
+.pAionGL_bFlight__eAngel__mType_5 {
+  z-index: 6;
+}
+.pAionGL_bFlight__eCloud__mType_2,
+.pAionGL_bFlight__eCloud__mType_3 {
+  z-index: 5;
+}
+.pAionGL_bFlight__eAngel__mType_6 {
+  z-index: 4;
+}
+.pAionGL_bFlight__eMute__mType_1,
+.pAionGL_bFlight__eMute__mType_2,
+.pAionGL_bFlight__eMute__mType_3,
+.pAionGL_bFlight__eMute__mType_4,
+.pAionGL_bFlight__eMute__mType_5 {
+  z-index: 3;
+}
+.pAionGL_bFlight__eMute__mType_6 {
+  z-index: 2;
+}
+.pAionGL_bFlight__eClouds {
+  z-index: 1;
+}
+.pAionGL_bFlight__eAngel {
+  position: absolute;
+}
+.pAionGL_bFlight__eAngel__mType_1 {
+  left: 333px;
+  top: 538px;
+}
+.pAionGL_bFlight__eAngel__mType_1 .pAionGL_bFlight__eAngelImage {
+  width: 781px;
+  height: 688px;
+  margin: -344px 0 0 -390.5px;
+}
+.pAionGL_bFlight__eAngel__mType_2 {
+  left: 766px;
+  top: 358px;
+}
+.pAionGL_bFlight__eAngel__mType_2 .pAionGL_bFlight__eAngelImage {
+  width: 633px;
+  height: 729px;
+  margin: -364.5px 0 0 -316.5px;
+}
+.pAionGL_bFlight__eAngel__mType_3 {
+  left: -38px;
+  top: 354px;
+}
+.pAionGL_bFlight__eAngel__mType_3 .pAionGL_bFlight__eAngelImage {
+  width: 779px;
+  height: 745px;
+  margin: -372.5px 0 0 -389.5px;
+}
+.pAionGL_bFlight__eAngel__mType_4 {
+  left: 65px;
+  top: 285px;
+}
+.pAionGL_bFlight__eAngel__mType_4 .pAionGL_bFlight__eAngelImage {
+  width: 449px;
+  height: 581px;
+  margin: -290.5px 0 0 -224.5px;
+}
+.pAionGL_bFlight__eAngel__mType_5 {
+  left: 482px;
+  top: 153px;
+}
+.pAionGL_bFlight__eAngel__mType_5 .pAionGL_bFlight__eAngelImage {
+  width: 550px;
+  height: 444px;
+  margin: -222px 0 0 -275px;
+}
+.pAionGL_bFlight__eAngel__mType_6 {
+  left: -77px;
+  top: 285px;
+}
+.pAionGL_bFlight__eAngel__mType_6 .pAionGL_bFlight__eAngelImage {
+  width: 354px;
+  height: 434px;
+  margin: -217px 0 0 -177px;
+}
+.pAionGL_bFlight__eAngelImage {
+  display: block;
+}
+.pAionGL_bFlight__eCloud {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.pAionGL_bFlight__eCloud__mType_1 {
+  left: 730px;
+  top: 786px;
+}
+.pAionGL_bFlight__eCloud__mType_1 .pAionGL_bFlight__eCloudImage {
+  width: 837px;
+  height: 546px;
+  margin: -273px 0 0 -418.5px;
+  background-image: url('//st1%SHARD_BASE%/-/892722205/aion/b/pAionGL/pAionGL_bFlight/cloud1.png');
+}
+.pAionGL_bFlight__eCloud__mType_2 {
+  left: 374px;
+  top: 470px;
+}
+.pAionGL_bFlight__eCloud__mType_2 .pAionGL_bFlight__eCloudImage {
+  width: 721px;
+  height: 345px;
+  margin: -172.5px 0 0 -360.5px;
+  background-image: url('//st2%SHARD_BASE%/-/1258798003/aion/b/pAionGL/pAionGL_bFlight/cloud2.png');
+  opacity: 0.9;
+}
+.pAionGL_bFlight__eCloud__mType_3 {
+  left: -59px;
+  top: 596px;
+}
+.pAionGL_bFlight__eCloud__mType_3 .pAionGL_bFlight__eCloudImage {
+  width: 765px;
+  height: 488px;
+  margin: -244px 0 0 -382.5px;
+  background-image: url('//st3%SHARD_BASE%/-/2732340759/aion/b/pAionGL/pAionGL_bFlight/cloud3.png');
+  opacity: 0.9;
+}
+.pAionGL_bFlight__eCloudImage {
+  display: block;
+}
+.pAionGL_bFlight__eMute {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.pAionGL_bFlight__eMute__mType_1 {
+  left: 866px;
+  top: 632px;
+}
+.pAionGL_bFlight__eMute__mType_1 .pAionGL_bFlight__eMuteImage {
+  width: 483px;
+  height: 269px;
+  margin: -134.5px 0 0 -241.5px;
+  background-image: url('//st2%SHARD_BASE%/-/3969655173/aion/b/pAionGL/pAionGL_bFlight/back1.png');
+}
+.pAionGL_bFlight__eMute__mType_2 {
+  left: 1070px;
+  top: 441px;
+}
+.pAionGL_bFlight__eMute__mType_2 .pAionGL_bFlight__eMuteImage {
+  width: 310px;
+  height: 243px;
+  margin: -121.5px 0 0 -155px;
+  background-image: url('//st3%SHARD_BASE%/-/2375019404/aion/b/pAionGL/pAionGL_bFlight/back2.png');
+}
+.pAionGL_bFlight__eMute__mType_3 {
+  left: -154px;
+  top: 476px;
+}
+.pAionGL_bFlight__eMute__mType_3 .pAionGL_bFlight__eMuteImage {
+  width: 153px;
+  height: 132px;
+  margin: -66px 0 0 -76.5px;
+  background-image: url('//st1%SHARD_BASE%/-/1829631721/aion/b/pAionGL/pAionGL_bFlight/back3.png');
+}
+.pAionGL_bFlight__eMute__mType_4 {
+  left: 584px;
+  top: 300px;
+}
+.pAionGL_bFlight__eMute__mType_4 .pAionGL_bFlight__eMuteImage {
+  width: 107px;
+  height: 110px;
+  margin: -55px 0 0 -53.5px;
+  background-image: url('//st2%SHARD_BASE%/-/138322734/aion/b/pAionGL/pAionGL_bFlight/back4.png');
+}
+.pAionGL_bFlight__eMute__mType_5 {
+  left: 69px;
+  top: 461px;
+}
+.pAionGL_bFlight__eMute__mType_5 .pAionGL_bFlight__eMuteImage {
+  width: 120px;
+  height: 88px;
+  margin: -44px 0 0 -60px;
+  background-image: url('//st3%SHARD_BASE%/-/1034703337/aion/b/pAionGL/pAionGL_bFlight/back5.png');
+}
+.pAionGL_bFlight__eMute__mType_6 {
+  left: 213px;
+  top: 366px;
+}
+.pAionGL_bFlight__eMute__mType_6 .pAionGL_bFlight__eMuteImage {
+  width: 1324px;
+  height: 424px;
+  margin: -212px 0 0 -662px;
+  background-image: url('//st1%SHARD_BASE%/-/3673058469/aion/b/pAionGL/pAionGL_bFlight/back6.png');
+}
+.pAionGL_bFlight__eMuteImage {
+  display: block;
+}
+.pAionGL_bFlight__eClouds {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 55%;
+  background: url('//st3%SHARD_BASE%/-/2422241213/aion/b/pAionGL/pAionGL_bFlight/clouds_bottom.jpg') center top repeat-x;
+}
+.pAionGL_bFlight__eCloudsTop {
+  position: absolute;
+  top: -190px;
+  left: 0;
+  right: 0;
+  height: 190px;
+  background: url('//st3%SHARD_BASE%/-/1227778216/aion/b/pAionGL/pAionGL_bFlight/clouds_top.png') center top repeat-x;
+}
+.pAionGL_bFlight__eGalleryWrapper {
+  z-index: 10;
+  position: relative;
+  margin: 0 -260px 10px -220px;
+  text-align: center;
+}
+.pAionGL_bFlight__eGallery {
+  display: inline-block;
+}
+.pAionGL_bFlight__eGalleryCaption {
+  margin: 0 12px 12px 0;
+  color: #6c707b;
+  font: normal 16px/20px "RomulCWeb", "Times New Roman", serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+.pAionGL_bFlight__eDescription {
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 28px;
+  width: 275px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  z-index: 11;
+  text-shadow: 0 0 3px #214970;
+}
+.pAionGL_bPlayers {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: relative;
+  padding-top: 720px;
+  width: 1200px;
+  margin-bottom: 40px;
+  margin-left: -30px;
+}
+.pAionGL_bPlayers__eMoving {
+  position: absolute;
+  top: 345px;
+  left: -169px;
+  right: -120px;
+  height: 518px;
+  background: url('//st3%SHARD_BASE%/-/4040979048/aion/b/pAionGL/pAionGL_bPlayers/history/history_moving.png') no-repeat 0 0;
+  -webkit-transition: background-position 1s ease-out;
+  -moz-transition: background-position 1s ease-out;
+  -ms-transition: background-position 1s ease-out;
+  -o-transition: background-position 1s ease-out;
+  transition: background-position 1s ease-out;
+}
+.pAionGL_bPlayers__eGraph {
+  color: white;
+}
+.pAionGL_bPlayers__eGraphNodes {
+  list-style: none;
+}
+.pAionGL_bPlayers__eStartAdventure {
+  position: absolute;
+  top: -35px;
+  left: -150px;
+  width: 300px;
+  margin-left: 108px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+.pAionGL_bPlayers__eStartAdventureDescription {
+  position: absolute;
+  bottom: 100px;
+  font: normal 16px/20px "Helvetica", "Arial", sans-serif;
+  color: #fff;
+  width: 455px;
+  left: -65px;
+}
+.pAionGL_bPlayers__eStartAdventureLink {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  vertical-align: top;
+  cursor: pointer;
+  padding: 0 0 246px;
+  white-space: nowrap;
+  font-family: "RomulCWeb", "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+.pAionGL_bPlayers__eStartAdventureLinkText {
+  border-bottom: 1px dashed #79aec0;
+}
+.pAionGL_bPlayers__eStartAdventureLink:hover {
+  color: #79aec0;
+}
+.pAionGL_bPlayers__eStartAdventureLink::before {
+  content: '';
+  position: absolute;
+  top: 126px;
+  left: 50%;
+  margin: 0 0 0 -10px;
+  opacity: 1;
+  border: 23px solid transparent;
+  border-right: 0;
+  border-left-color: #fff;
+  border-top-width: 17px;
+  border-bottom-width: 17px;
+}
+.pAionGL_bPlayers__eStartAdventureLink:hover::before {
+  border-left-color: #79aec0;
+}
+.pAionGL_bPlayers__mState_intro .pAionGL_bPlayers__eStartAdventure {
+  opacity: 1;
+}
+.pAionGL_bPlayers__mState_slides .pAionGL_bPlayers__eStartAdventure {
+  display: none;
+}
+.pAionGL_bPlayers__eGraphNode {
+  z-index: 3;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  margin: -3px 0 0 -4px;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 50px 5px rgba(51, 161, 243, 0.75);
+  -moz-box-shadow: 0 0 50px 5px rgba(51, 161, 243, 0.75);
+  -o-box-shadow: 0 0 50px 5px rgba(51, 161, 243, 0.75);
+  box-shadow: 0 0 50px 5px rgba(51, 161, 243, 0.75);
+}
+.pAionGL_bPlayers__eGraphNode__mState_inactive {
+  opacity: 0;
+  background-image: none !important;
+  background-color: white;
+}
+.pAionGL_bPlayers__eGraphNode__mState_active {
+  z-index: 4;
+  display: block;
+  width: 108px;
+  height: 108px;
+  margin: -54px 0 0 -55px;
+  border: none;
+  -webkit-border-radius: 54px;
+  -moz-border-radius: 54px;
+  -o-border-radius: 54px;
+  border-radius: 54px;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  -ms-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+}
+.pAionGL_bPlayers__mState_slides .pAionGL_bPlayers__eGraphNode__mState_active {
+  opacity: 1;
+}
+.pAionGL_bPlayers__eGraphNode__mState_historical {
+  opacity: 1;
+  width: 6px;
+  height: 6px;
+  margin: -3px 0 0 -4px;
+  background-image: none !important;
+  background-color: white;
+}
+.pAionGL_bPlayers__eGraphNode__mType_player {
+  overflow: visible;
+  display: block;
+  z-index: 4;
+  left: 50%;
+  top: 370px;
+  width: 216px;
+  height: 216px;
+  margin: -108px 0 0 -108px;
+  border: none;
+  background-color: #050d14;
+  background-image: url('//st2%SHARD_BASE%/-/251850849/aion/b/pAionGL/pAionGL_bPlayers/fossi/1.png');
+  -webkit-border-radius: 108px;
+  -moz-border-radius: 108px;
+  -o-border-radius: 108px;
+  border-radius: 108px;
+  opacity: 1;
+}
+.pAionGL_bPlayers__mState_slides .pAionGL_bPlayers__eGraphNode__mType_player {
+  cursor: pointer;
+}
+.pAionGL_bPlayers__eGraphNode__mState_noControl {
+  cursor: default !important;
+}
+.pAionGL_bPlayers__eGraphNodeName {
+  position: absolute;
+  bottom: -20px;
+  left: -150px;
+  width: 300px;
+  margin-left: 3px;
+  text-align: center;
+  white-space: nowrap;
+  font: normal 12px/20px "RomulCWeb", "Times New Roman", serif;
+  text-transform: uppercase;
+  cursor: default;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease 0.5s;
+  -moz-transition: opacity 0.5s ease 0.5s;
+  -ms-transition: opacity 0.5s ease 0.5s;
+  -o-transition: opacity 0.5s ease 0.5s;
+  transition: opacity 0.5s ease 0.5s;
+}
+.pAionGL_bPlayers__eGraphNode__mState_active .pAionGL_bPlayers__eGraphNodeName {
+  bottom: -24px;
+  margin-left: 54px;
+}
+.pAionGL_bPlayers__eGraphNode__mType_player .pAionGL_bPlayers__eGraphNodeName {
+  font-size: 14px;
+  bottom: -24px;
+  margin-left: 108px;
+}
+.pAionGL_bPlayers__eGraphNode__mState_historical .pAionGL_bPlayers__eGraphNodeName {
+  margin-left: 0;
+}
+.pAionGL_bPlayers__mState_intro .pAionGL_bPlayers__eGraphNodeName {
+  opacity: 0;
+}
+.pAionGL_bPlayers__eGraphEdge {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transform-origin: left top;
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: opacity 0.3s linear 0.2s;
+  -moz-transition: opacity 0.3s linear 0.2s;
+  -ms-transition: opacity 0.3s linear 0.2s;
+  -o-transition: opacity 0.3s linear 0.2s;
+  transition: opacity 0.3s linear 0.2s;
+  opacity: 0;
+}
+.pAionGL_bPlayers__eGraphEdge__mType_visible {
+  display: block;
+}
+.pAionGL_bPlayers__eGraphEdge__mType_secondary {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.pAionGL_bPlayers__mState_slides .pAionGL_bPlayers__eGraphEdge {
+  opacity: 1;
+}
+.pAionGL_bPlayers__eHistory {
+  position: relative;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -ms-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+.pAionGL_bPlayers__mState_slides .pAionGL_bPlayers__eHistory {
+  opacity: 1;
+}
+.pAionGL_bPlayers__eHistoryControl {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+}
+.pAionGL_bPlayers__eHistoryControl__mType_next {
+  right: 50%;
+  margin-right: -480px;
+}
+.pAionGL_bPlayers__eHistoryControl__mType_prev {
+  left: 50%;
+  margin-left: -480px;
+}
+.pAionGL_bPlayers__eHistoryControl__mState_inactive {
+  display: none;
+}
+.pAionGL_bPlayers__eHistoryList {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 6px 0 0;
+}
+.pAionGL_bPlayers__eHistoryText {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font: normal 15px/20px "Helvetica", "Arial", sans-serif;
+}
+.pAionGL_bPlayers__eHistoryImage {
+  width: 160px;
+  height: 80px;
+  border: 1px solid #a6e0f4;
+  vertical-align: top;
+}
+.pAionGL_bPlayers__eHistoryImage:hover {
+  border-color: #fff;
+}
+.pAionGL_bPlayers__eHistoryMilestone {
+  display: none;
+  height: 100%;
+  margin: 0 auto;
+  color: white;
+  width: 820px;
+}
+.pAionGL_bPlayers__eHistoryMilestone__mState_active {
+  display: block;
+}
+.pAionGL_bPlayers__eHistoryMilestoneLayout {
+  border-collapse: collapse;
+  width: 100%;
+}
+.pAionGL_bPlayers__eHistoryMilestoneLayoutImage {
+  width: 162px;
+  padding: 0 20px 0 0;
+  margin: 0;
+}
+.pAionGL_bPlayers__eHistoryMilestoneLayoutImage .pAionGL_bGallery__eItemLink {
+  display: inline-block;
+  vertical-align: top;
+}
+.pAionGL_bPlayers__eHistoryMilestoneLayoutText {
+  width: 638px;
+  padding: 0;
+  margin: 0;
+}
+.pAionGL_bPlayers__eHistoryPaging {
+  list-style: none;
+  margin: 0 auto;
+  padding: 20px 0 0 175px;
+  position: relative;
+  width: 640px;
+}
+.pAionGL_bPlayers__eHistoryPaging:after {
+  content: '';
+  clear: both;
+  display: block;
+  width: 100%;
+}
+.pAionGL_bPlayers__eHistoryPagingItem {
+  float: left;
+  margin: 0 3px 0 0;
+  padding: 0;
+}
+.pAionGL_bPlayers__eHistoryPagingElement {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  vertical-align: top;
+  cursor: pointer;
+}
+.pAionGL_bPlayers__eHistoryPagingItem__mState_active .pAionGL_bPlayers__eHistoryPagingElement {
+  cursor: default;
+}
+.pAionGL_bPlayers__eHistoryPagingElementInner {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #abe1f4;
+  border-radius: 50%;
+  vertical-align: top;
+  position: relative;
+  left: 6px;
+  top: 6px;
+}
+.pAionGL_bPlayers__eHistoryPagingElement:hover .pAionGL_bPlayers__eHistoryPagingElementInner {
+  border-color: #fff;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+.pAionGL_bPlayers__eHistoryPagingItem__mState_active .pAionGL_bPlayers__eHistoryPagingElementInner {
+  background: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 16px 1px rgba(60, 181, 226, 0.8);
+}
+.pAionGL_bPlayers__eHistoryPagingItem__mState_active .pAionGL_bPlayers__eHistoryPagingElement:hover .pAionGL_bPlayers__eHistoryPagingElementInner {
+  box-shadow: 0 0 16px 1px rgba(60, 181, 226, 0.8);
+}
+.pAionGL_bWorld {
+  position: relative;
+  min-height: 700px;
+  height: 100%;
+  margin-bottom: 30px;
+}
+.pAionGL_bWorld .iAnimation__mType_hide {
+  visibility: hidden;
+}
+.pAionGL_bWorld .iAnimation__mType_show {
+  visibility: visible;
+}
+.pAionGL_bWorld__eLegend {
+  z-index: 4;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 480px;
+  margin-left: -240px;
+  padding-top: 50px;
+  text-align: left;
+  color: white;
+  font: normal 16px/20px "Helvetica", "Arial", sans-serif;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.pAionGL_bWorld__eLegend__mType_video {
+  left: 0;
+  width: 100%;
+  margin-left: 0;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eLegend {
+  top: 1000%;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eLegend {
+  -webkit-transition: all 0.4s ease 0.4s;
+  -moz-transition: all 0.4s ease 0.4s;
+  -ms-transition: all 0.4s ease 0.4s;
+  -o-transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0.4s;
+}
+.pAionGL_bWorld__eLegend__mType_planet,
+.iAnimation__mType_show .pAionGL_bWorld__eLegend__mType_planet {
+  top: 85%;
+}
+.pAionGL_bWorld__eLegend__mType_abyss,
+.iAnimation__mType_show .pAionGL_bWorld__eLegend__mType_abyss {
+  top: 80%;
+  padding-top: 0;
+}
+.pAionGL_bWorld__eVideo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 600px;
+  height: 350px;
+  margin: -200px 0 0 -300px;
+}
+.pAionGL_bWorld__eVideoFrame {
+  z-index: 4;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eVideoFrame {
+  top: -500%;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eVideoFrame {
+  top: 0;
+  -webkit-transition: all 0.4s ease 0.4s;
+  -moz-transition: all 0.4s ease 0.4s;
+  -ms-transition: all 0.4s ease 0.4s;
+  -o-transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0.4s;
+}
+.pAionGL_bWorld__eStartime {
+  opacity: 1;
+  z-index: 3;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: url('//st2%SHARD_BASE%/-/3680426945/aion/b/pAionGL/pAionGL_bWorld/startime.jpg') center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eStartime {
+  opacity: 0;
+  -webkit-transform: scale(5);
+  -moz-transform: scale(5);
+  -ms-transform: scale(5);
+  -o-transform: scale(5);
+  transform: scale(5);
+}
+.iAnimation__mType_show .pAionGL_bWorld__eStartime {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.4s ease 0.4s;
+  -moz-transition: all 0.4s ease 0.4s;
+  -ms-transition: all 0.4s ease 0.4s;
+  -o-transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0.4s;
+}
+.pAionGL_bWorld__ePlanet {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 496px;
+  height: 496px;
+  margin: 0 0 0 -248px;
+}
+.pAionGL_bWorld__ePlanetRotation {
+  width: 496px;
+  height: 496px;
+  -webkit-animation: rotation 360s infinite linear;
+  -moz-animation: rotation 360s infinite linear;
+  -o-animation: rotation 360s infintite linear;
+  animation: rotation 360s infinite linear;
+}
+.pAionGL_bWorld__ePlanetImage {
+  width: 496px;
+  height: 496px;
+  background: url('//st2%SHARD_BASE%/-/2931208813/aion/b/pAionGL/pAionGL_bWorld/planet/planet5.png') no-repeat 0 0;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.pAionGL_bWorld__eFrame__mType_cataclism .pAionGL_bWorld__ePlanetImage {
+  background-image: url('//st1%SHARD_BASE%/-/3297984262/aion/b/pAionGL/pAionGL_bWorld/planet/planet1.png');
+}
+.iAnimation__mType_hide .pAionGL_bWorld__ePlanetImage {
+  opacity: 0;
+  -webkit-transform: scale(5);
+  -moz-transform: scale(5);
+  -ms-transform: scale(5);
+  -o-transform: scale(5);
+  transform: scale(5);
+}
+.iAnimation__mType_show .pAionGL_bWorld__ePlanetImage {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.4s ease 0.4s;
+  -moz-transition: all 0.4s ease 0.4s;
+  -ms-transition: all 0.4s ease 0.4s;
+  -o-transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0.4s;
+}
+.pAionGL_bWorld__ePlanetSun {
+  position: absolute;
+  left: 600px;
+  top: -50px;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 25px;
+  background: #fff2d9;
+  -webkit-box-shadow: 0 0 20px 5px rgba(255, 255, 89, 0.75);
+  -moz-box-shadow: 0 0 20px 5px rgba(255, 255, 89, 0.75);
+  -o-box-shadow: 0 0 20px 5px rgba(255, 255, 89, 0.75);
+  box-shadow: 0 0 20px 5px rgba(255, 255, 89, 0.75);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__ePlanetSun {
+  opacity: 0;
+}
+.iAnimation__mType_show .pAionGL_bWorld__ePlanetSun {
+  opacity: 1;
+  -webkit-transition: all 0.4s ease 0.4s;
+  -moz-transition: all 0.4s ease 0.4s;
+  -ms-transition: all 0.4s ease 0.4s;
+  -o-transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0.4s;
+}
+.pAionGL_bWorld__eRace {
+  position: absolute;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eRace {
+  -webkit-transition: all 0.4s ease 0.4s;
+  -moz-transition: all 0.4s ease 0.4s;
+  -ms-transition: all 0.4s ease 0.4s;
+  -o-transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0.4s;
+}
+.pAionGL_bWorld__eRace__mType_asmodian {
+  top: -150px;
+  left: -72%;
+  width: 547px;
+  height: 630px;
+  background: url('//st1%SHARD_BASE%/-/4107343031/aion/b/pAionGL/pAionGL_bWorld/asmodian.png') no-repeat;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eRace__mType_asmodian {
+  left: -450%;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eRace__mType_asmodian {
+  left: -72%;
+}
+.pAionGL_bWorld__eRace__mType_elyos {
+  top: 0;
+  right: -57%;
+  width: 550px;
+  height: 444px;
+  background: url('//st1%SHARD_BASE%/-/1609182497/aion/b/pAionGL/pAionGL_bWorld/elyos.png') no-repeat;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eRace__mType_elyos {
+  right: -450%;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eRace__mType_elyos {
+  right: -57%;
+}
+.pAionGL_bWorld__eRaceText {
+  z-index: 5;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 260px;
+  padding-top: 20px;
+  text-align: left;
+  color: white;
+  font: normal 16px/20px "Helvetica", "Arial", sans-serif;
+}
+.pAionGL_bWorld__eRace__mType_asmodian .pAionGL_bWorld__eRaceText {
+  left: 285px;
+}
+.pAionGL_bWorld__eRace__mType_elyos .pAionGL_bWorld__eRaceText {
+  padding-top: 56px;
+  left: 70px;
+}
+.pAionGL_bWorld__eRaceGlow {
+  position: absolute;
+  width: 850px;
+  height: 850px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eRaceGlow {
+  opacity: 0;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eRaceGlow {
+  opacity: 0.6;
+}
+.pAionGL_bWorld__eRaceGlow__mType_asmodian {
+  top: 300px;
+  left: -200px;
+  background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #550050 20%, rgba(85, 0, 80, 0) 65%);
+}
+.pAionGL_bWorld__eRaceGlow__mType_elyos {
+  top: 150px;
+  right: -200px;
+  background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #005a85 20%, rgba(0, 90, 133, 0) 65%);
+}
+.pAionGL_bWorld__eAbyss {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 900px;
+  height: 900px;
+  margin: -250px 0 0 -450px;
+}
+.pAionGL_bWorld__eAbyssRotation {
+  width: 900px;
+  height: 900px;
+  -webkit-animation: rotation 360s infinite linear;
+  -moz-animation: rotation 360s infinite linear;
+  -o-animation: rotation 360s infintite linear;
+  animation: rotation 360s infinite linear;
+}
+.pAionGL_bWorld__eAbyssImage {
+  opacity: 0;
+  width: 900px;
+  height: 900px;
+  background: url('//st3%SHARD_BASE%/-/1823412932/aion/b/pAionGL/pAionGL_bWorld/abyss.png') no-repeat;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eAbyssImage {
+  opacity: 0;
+  -webkit-transform: scale(5);
+  -moz-transform: scale(5);
+  -ms-transform: scale(5);
+  -o-transform: scale(5);
+  transform: scale(5);
+}
+.iAnimation__mType_show .pAionGL_bWorld__eAbyssImage {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.4s ease 0.4s;
+  -moz-transition: all 0.4s ease 0.4s;
+  -ms-transition: all 0.4s ease 0.4s;
+  -o-transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0.4s;
+}
+.pAionGL_bWorld__eAbyssCreature {
+  position: absolute;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eAbyssCreature {
+  -webkit-transition: all 0.4s ease 0.4s;
+  -moz-transition: all 0.4s ease 0.4s;
+  -ms-transition: all 0.4s ease 0.4s;
+  -o-transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0.4s;
+}
+.pAionGL_bWorld__eAbyssCreature__mType_1 {
+  left: 50px;
+  top: 385px;
+  width: 303px;
+  height: 281px;
+  background: url('//st2%SHARD_BASE%/-/1771014432/aion/b/pAionGL/pAionGL_bWorld/creature1.png') no-repeat;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eAbyssCreature__mType_1 {
+  left: -2000px;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eAbyssCreature__mType_1 {
+  left: 50px;
+}
+.pAionGL_bWorld__eAbyssCreature__mType_2 {
+  right: 260px;
+  top: 520px;
+  width: 140px;
+  height: 139px;
+  background: url('//st3%SHARD_BASE%/-/968096805/aion/b/pAionGL/pAionGL_bWorld/creature2.png') no-repeat;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eAbyssCreature__mType_2 {
+  right: -2000px;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eAbyssCreature__mType_2 {
+  right: 260px;
+}
+.pAionGL_bWorld__eAbyssCreature__mType_gang {
+  left: 260px;
+  top: 300px;
+  width: 422px;
+  height: 292px;
+  background: url('//st3%SHARD_BASE%/-/995989873/aion/b/pAionGL/pAionGL_bWorld/creature-gang.png') no-repeat;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eAbyssCreature__mType_gang {
+  top: -2000px;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eAbyssCreature__mType_gang {
+  top: 290px;
+}
+.pAionGL_bWorld__eGallery {
+  list-style: none;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.pAionGL_bWorld__eGallery__mType_positioned {
+  position: static;
+}
+.iAnimation__mType_hide .pAionGL_bWorld__eGallery {
+  visibility: hidden;
+  opacity: 0;
+}
+.iAnimation__mType_show .pAionGL_bWorld__eGallery {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease 0.4s;
+  -moz-transition: all 0.4s ease 0.4s;
+  -ms-transition: all 0.4s ease 0.4s;
+  -o-transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0.4s;
+}
+.pAionGL_bWorld__eGalleryItem {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  z-index: 9;
+}
+.pAionGL_bMorphing {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: relative;
+  padding-bottom: 671px;
+  cursor: default;
+}
+.pAionGL_bMorphing:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -550px;
+  z-index: 5;
+  display: block;
+  width: 1000px;
+  height: 1000px;
+  background: radial-gradient(ellipse at center, #006c95 0%, rgba(0, 108, 149, 0) 70%);
+  opacity: 0.5;
+}
+.pAionGL_bMorphing:after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -550px;
+  z-index: 5;
+  display: block;
+  width: 1000px;
+  height: 1000px;
+  background: radial-gradient(ellipse at center, #550050 0%, rgba(85, 0, 80, 0) 70%);
+  opacity: 0.5;
+}
+.pAionGL_bMorphing__eGender {
+  z-index: 6;
+  position: relative;
+  margin: 0 auto;
+}
+.pAionGL_bMorphing__eVideos {
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  width: 772px;
+  height: 770px;
+  margin-left: -386px;
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -ms-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+.pAionGL_bMorphing__eVideos__mState_active {
+  opacity: 1;
+}
+.pAionGL_bMorphing__eVideo {
+  opacity: 0;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+}
+.pAionGL_bMorphing__eVideos__mState_forward .pAionGL_bMorphing__eVideo__mType_forward {
+  z-index: 3;
+  opacity: 1;
+}
+.pAionGL_bMorphing__eVideos__mState_backward .pAionGL_bMorphing__eVideo__mType_backward {
+  z-index: 3;
+  opacity: 1;
+}
+.pAionGL_bMorphing__eTimeline {
+  position: absolute;
+  bottom: 90px;
+  left: 44px;
+  z-index: 10;
+  width: 684px;
+  height: 18px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.pAionGL_bMorphing__eTimeline:before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 0;
+  width: 100%;
+  display: block;
+  height: 2px;
+  margin: 15px 0;
+  background: #181d37;
+  cursor: pointer;
+  border-radius: 1px;
+  box-shadow: 0 0 10px 10px rgba(0, 108, 149, 0.7);
+  z-index: 11;
+}
+.pAionGL_bMorphing__eTimelineSlider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -o-border-radius: 18px;
+  border-radius: 18px;
+  z-index: 12;
+  cursor: pointer;
+}
+.pAionGL_bMorphing__eControl {
+  z-index: 10;
+  position: absolute;
+  top: 348px;
+  line-height: 91px;
+  cursor: pointer;
+}
+.pAionGL_bMorphing__eControl__mType_elyos {
+  left: 78px;
+}
+.pAionGL_bMorphing__eControl__mType_asmodean {
+  right: 78px;
+}
+.pAionGL_bMorphing__eControl__mType_disable {
+  z-index: 4;
+  opacity: 0.2;
+}
+.pAionGL_bMorphing__eControlIcon {
+  vertical-align: middle;
+}
+.pAionGL_bMorphing__eControlRace {
+  position: relative;
+  color: #fff;
+  font: normal 14px/18px "RomulCWeb", "Times New Roman", serif;
+  border-bottom: 1px dashed #79aec0;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.pAionGL_bMorphing__eControlRace:before {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  z-index: -1;
+  color: #000;
+  border-bottom: 1px dashed #000;
+  text-transform: uppercase;
+}
+.pAionGL_bMorphing__eControl__mType_elyos .pAionGL_bMorphing__eControlRace {
+  margin-left: 20px;
+}
+.pAionGL_bMorphing__eControl__mType_elyos .pAionGL_bMorphing__eControlRace:before {
+  content: "элийцы";
+}
+.pAionGL_bMorphing__eControl__mType_asmodean .pAionGL_bMorphing__eControlRace {
+  margin-right: 20px;
+}
+.pAionGL_bMorphing__eControl__mType_asmodean .pAionGL_bMorphing__eControlRace:before {
+  content: "асмодиане";
+}
+.pAionGL_bMorphing__eControl:hover .pAionGL_bMorphing__eControlRace {
+  color: #79aec0;
+}
+.pAionGL_bMorphing__eControl__mType_disable:hover .pAionGL_bMorphing__eControlRace {
+  color: #fff;
+}
+.pAionGL_bMorphing__eFeatures {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 11;
+}
+.pAionGL_bMorphing__eFeatureRow {
+  display: table-row;
+}
+.pAionGL_bMorphing__eFeatureTitle {
+  display: table-cell;
+  padding: 0 10px 40px;
+  vertical-align: top;
+  font: normal 14px/18px "RomulCWeb", "Times New Roman", serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pAionGL_bMorphing__eFeatureItem {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background: radial-gradient(ellipse at center, rgba(189, 127, 91, 0.8) 0%, rgba(189, 127, 91, 0) 75%);
+}
+.pAionGL_bMorphing__eFeatureItemImg {
+  width: 80%;
+}
+.pAionGL_bMorphing__eFeatureItemImg__mType_pets {
+  max-width: 227px;
+}
+.pAionGL_bMorphing__eFeatureItemImg__mType_clothes {
+  max-width: 213px;
+}
+.pAionGL_bMorphing__eFeatureItemImg__mType_houses {
+  max-width: 163px;
+}

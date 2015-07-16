@@ -27,12 +27,14 @@ describe('Glob', function() {
 	});
 
 	it('stream content', function(done) {
-		src('./css/{file1,file2}.css', {buffer: false})
+		src('./css/{file1,file2,blocks}.css', {buffer: false})
 		.pipe(transform('/a/b'))
 		.pipe(dest('out-stream'))
 		.on('end', function() {
 			assert.equal(read('out-stream/css/file1.css'), read('fixtures/file1.css'));
 			assert.equal(read('out-stream/css/file2.css'), read('fixtures/file2.css'));
+			// a pretty large file: make sure reader is properly resumed
+			assert(read('out-stream/css/blocks.css'));
 			done();
 		});
 	});
