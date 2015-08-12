@@ -64,8 +64,8 @@ function createPipeline(options) {
 	// each `transform` entry must be a function that returns a transform stream
 	if (options.transform) {
 		var t = Array.isArray(options.transform) ? options.transform : [options.transform];
-		t.forEach(function(streamFactory) {
-			output = output.pipe(streamFactory(options));
+		t.forEach(function(factory) {
+			output = output.pipe(factory(options));
 		});
 	}
 
