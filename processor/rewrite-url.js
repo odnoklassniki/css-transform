@@ -1,9 +1,9 @@
 /**
- * Стандартный препроцессор CSS, который меняет ссылки 
+ * Стандартный препроцессор CSS, который меняет ссылки
  * на ресурсы внутри документа. Работает на основе конфига:
  * пути относительно `root` превращаются в абсолютные
  * и им добавляется `prefix`.
- * Полученный адрес может быть переработан методом `transform`. 
+ * Полученный адрес может быть переработан методом `transform`.
  */
 var path = require('path');
 var extend = require('xtend');
@@ -11,7 +11,7 @@ var through = require('through2');
 var fileStats = require('../lib/file-stats');
 
 var defaultConfig = {
-	/** 
+	/**
 	 * Prefix to add to rewritten url
 	 */
 	prefix: '',
@@ -78,8 +78,8 @@ function absoluteUrl(url, parentUrl, root) {
 }
 
 /**
- * Переделывает указанный URL: добавляет к нему `prefix` и следит 
- * за «чистотой» адреса 
+ * Переделывает указанный URL: добавляет к нему `prefix` и следит
+ * за «чистотой» адреса
  * @param  {String} url
  * @param  {String} prefix
  * @return {String}
@@ -118,12 +118,12 @@ module.exports = function(config) {
 	return through.obj(function(file, enc, next) {
 		var base = path.resolve(file.cwd, file.base);
 		// rewrite properties
-		file.css.eachDecl(function(decl) {
+		file.css.walkDecls(function(decl) {
 			decl.value = replaceUrl(decl.value, file, base, config);
 		});
 
 		// rewrite @import
-		file.css.eachAtRule(function(rule) {
+		file.css.walkAtRules(function(rule) {
 			if (rule.name === 'import') {
 				rule.params = replaceUrl(rule.params, file, base, config);
 			}

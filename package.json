@@ -11,7 +11,7 @@
   "dependencies": {
     "crc": "^3.3.0",
     "graceful-fs": "^3.0.8",
-    "postcss": "^4.1.12",
+    "postcss": "^5.0.19",
     "stream-combiner2": "^1.1.1",
     "through2": "^2.0.0",
     "vinyl": "^0.5.1",
