@@ -1,6 +1,6 @@
 {
   "name": "css-transform",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Transforms CSS files while moving them from one location into another",
   "main": "index.js",
   "scripts": {
@@ -10,12 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "crc": "^3.3.0",
-    "graceful-fs": "^3.0.8",
-    "postcss": "^5.0.19",
-    "stream-combiner2": "^1.1.1",
-    "through2": "^2.0.0",
-    "vinyl": "^0.5.1",
-    "xtend": "^4.0.0"
+    "postcss": "^5.0.19"
   },
   "devDependencies": {
     "del": "^1.2.0",

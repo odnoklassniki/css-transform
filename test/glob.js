@@ -2,19 +2,18 @@ var fs = require('fs');
 var path = require('path');
 var assert = require('assert');
 var del = require('del');
-var extend = require('xtend');
 var vfs = require('vinyl-fs');
-var transform = require('../');
+var transform = require('../').stream;
 
 function read(p) {
 	return fs.readFileSync(path.join(__dirname, p), 'utf8');
 }
 
 function src(pattern, options) {
-	return vfs.src(pattern, extend({
-		cwd: __dirname, 
+	return vfs.src(pattern, Object.assign({
+		cwd: __dirname,
 		base: __dirname,
-	}, options || {}));
+	}, options));
 }
 
 function dest(dir) {
