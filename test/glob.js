@@ -27,7 +27,7 @@ describe('Glob', function() {
 
 	it('stream content', function(done) {
 		src('./css/{file1,file2,blocks}.css', {buffer: false})
-		.pipe(transform('/a/b'))
+		.pipe(transform('/a/b')).on('error', done)
 		.pipe(dest('out-stream'))
 		.on('end', function() {
 			assert.equal(read('out-stream/css/file1.css'), read('fixtures/file1.css'));
@@ -40,7 +40,7 @@ describe('Glob', function() {
 
 	it('buffer content', function(done) {
 		src('./html/{file1,file2}.css')
-		.pipe(transform('/a/b'))
+		.pipe(transform('/a/b')).on('error', done)
 		.pipe(dest('out'))
 		.on('end', function() {
 			assert.equal(read('out-stream/css/file1.css'), read('fixtures/file1.css'));

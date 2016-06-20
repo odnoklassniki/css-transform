@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "crc": "^3.3.0",
+    "file-stats": "github:sergeche/file-stats#v1.0.0",
     "postcss": "^5.0.19"
   },
   "devDependencies": {
