@@ -1,6 +1,6 @@
 {
   "name": "css-transform",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Transforms CSS files while moving them from one location into another",
   "main": "index.js",
   "scripts": {
